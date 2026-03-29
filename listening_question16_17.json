@@ -1,0 +1,577 @@
+[
+  {
+    "question": "Topic: A break from studying",
+    "sentences": [
+      {
+        "text": "16.1 Why hasn't he gone to college?",
+        "options": [
+          "He wasn't ready to start higher education",
+          "He couldn't afford the tuition fees.",
+          "He didn't get good enough grades"
+        ],
+        "answer": "He wasn't ready to start higher education"
+      },
+      {
+        "text": "16.2 Why did he decide to travel for 2 years?",
+        "options": [
+          "To avoid studying.",
+          "To gain life experience.",
+          "To travelling."
+        ],
+        "answer": "To gain life experience."
+      }
+    ]
+  },
+  {
+    "question": "Topic: A book about a life of a scientist",
+    "sentences": [
+      {
+        "text": "17.1 Why do many readers find the book interesting?",
+        "options": [
+          "It uses simple language to describe complex ideas.",
+          "It relies heavily on technical vocabulary.",
+          "It avoids explaining abstract concepts."
+        ],
+        "answer": "It uses simple language to describe complex ideas."
+      },
+      {
+        "text": "17.2 Why is the book so popular?",
+        "options": [
+          "It is too difficult to understand.",
+          "It is too long.",
+          "It is similar to the previous book about the scientist."
+        ],
+        "answer": "It is similar to the previous book about the scientist."
+      }
+    ]
+  },
+  {
+    "question": "Topic: The sport",
+    "sentences": [
+      {
+        "text": "16.1 What is this person's opinion on sports?",
+        "options": [
+          "They have a harmful effect",
+          "They bring people together",
+          "They improve concentration"
+        ],
+        "answer": "They have a harmful effect"
+      },
+      {
+        "text": "16.2 What is the importance of sports for students?",
+        "options": [
+          "It distracts students from studying.",
+          "It is only useful for professional athletes.",
+          "It helps balance student's lives."
+        ],
+        "answer": "It helps balance student's lives."
+      }
+    ]
+  },
+  {
+    "question": "Topic: Television series",
+    "sentences": [
+      {
+        "text": "17.1 Why is this series so popular?",
+        "options": [
+          "It has the consistent quality throughout.",
+          "It was only available for a short time.",
+          "It features unknown actors."
+        ],
+        "answer": "It has the consistent quality throughout."
+      },
+      {
+        "text": "17.2 What is the current series industry affected by?",
+        "options": [
+          "Viewer habits influence the way that series are made.",
+          "Series are no longer produced for online platforms.",
+          "Actors now write most of the scripts themselves."
+        ],
+        "answer": "Viewer habits influence the way that series are made."
+      }
+    ]
+  },
+  {
+    "question": "Topic: Advertising and sponsoring",
+    "sentences": [
+      {
+        "text": "16.1 What is the importance of advertising?",
+        "options": [
+          "It can help reach new customers",
+          "It increases the product price",
+          "It can build brand recognition"
+        ],
+        "answer": "It can help reach new customers"
+      },
+      {
+        "text": "16.2 Why shouldn't we sponsor sports tournaments?",
+        "options": [
+          "They can create unfair competition",
+          "They are too expensive",
+          "They can generate negative publicity for the sport"
+        ],
+        "answer": "They can generate negative publicity for the sport"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Famous writers",
+    "sentences": [
+      {
+        "text": "17.1 What do these two famous writers have in common?",
+        "options": [
+          "They both make references to each other in their work",
+          "They both wrote in the same genre",
+          "They both were born in the same country"
+        ],
+        "answer": "They both make references to each other in their work"
+      },
+      {
+        "text": "17.2 What is special about their works?",
+        "options": [
+          "Their works are all based on real events",
+          "The meaning of their work is not always easily identified",
+          "They use simple language and structure"
+        ],
+        "answer": "The meaning of their work is not always easily identified"
+      }
+    ]
+  },
+  {
+    "question": "Topic: A regional development plan",
+    "sentences": [
+      {
+        "text": "16.1 Why do residents oppose this plan?",
+        "options": [
+          "It doesn't do enough to promote alternatives to driving",
+          "It increases the number of public parks in the area",
+          "It provides free public transportation for all residents"
+        ],
+        "answer": "It doesn't do enough to promote alternatives to driving"
+      },
+      {
+        "text": "16.2 What difficulties is the city council having with this plan?",
+        "options": [
+          "The plan is not making efficient use of existing land",
+          "There is too much public support, making it hard to manage expectations",
+          "The plan has already exceeded its budget by a large margin"
+        ],
+        "answer": "The plan is not making efficient use of existing land"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Life after university",
+    "sentences": [
+      {
+        "text": "17.1 What should students do when choosing a career?",
+        "options": [
+          "Focus only on the salary offered",
+          "Be flexible and open minded",
+          "Choose the same career as their friends"
+        ],
+        "answer": "Be flexible and open minded"
+      },
+      {
+        "text": "17.2 What should students pay attention to when applying for jobs these days?",
+        "options": [
+          "They are becoming more competitive",
+          "Most jobs no longer require any qualifications",
+          "Companies prefer handwritten applications"
+        ],
+        "answer": "They are becoming more competitive"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Security cameras",
+    "sentences": [
+      {
+        "text": "16.1 How should people feel about cameras in the workplace?",
+        "options": [
+          "Cameras should be banned",
+          "People should feel uneasy",
+          "Employees probably worry unnecessarily"
+        ],
+        "answer": "Employees probably worry unnecessarily"
+      },
+      {
+        "text": "16.2 How should people feel about cameras in general?",
+        "options": [
+          "People should feel reassured",
+          "People should feel paranoid",
+          "Cameras invade personal space"
+        ],
+        "answer": "People should feel reassured"
+      }
+    ]
+  },
+  {
+    "question": "Topic: A new novel of a famous writer",
+    "sentences": [
+      {
+        "text": "17.1 What is special about his new novel?",
+        "options": [
+          "It is shorter and easier to read",
+          "It is quite different compared to his previous works",
+          "It has been written in a different genre"
+        ],
+        "answer": "It is quite different compared to his previous works"
+      },
+      {
+        "text": "17.2 What is the speaker's opinion of this writer?",
+        "options": [
+          "He should listen to the critics before writing next novel",
+          "He is a brilliant but slow writer",
+          "He needs to change his writing style"
+        ],
+        "answer": "He should listen to the critics before writing next novel"
+      }
+    ]
+  },
+  {
+    "question": "Topic: A musician's life",
+    "sentences": [
+      {
+        "text": "16.1 What will this musician do in the near future?",
+        "options": [
+          "He plans to release a new album",
+          "He will probably retire from singing",
+          "He wants to collaborate with younger artists"
+        ],
+        "answer": "He will probably retire from singing"
+      },
+      {
+        "text": "16.2 What does the speaker think about his career in general?",
+        "options": [
+          "He regrets choosing his profession",
+          "He could have been more successful",
+          "He believes he reached the peak too early"
+        ],
+        "answer": "He could have been more successful"
+      }
+    ]
+  },
+  {
+    "question": "Topic: A new guide",
+    "sentences": [
+      {
+        "text": "17.1 What is the advantage of this new guide?",
+        "options": [
+          "It includes detailed hotel reviews",
+          "It creates a sense of adventure",
+          "It focuses mainly on luxury travel"
+        ],
+        "answer": "It creates a sense of adventure"
+      },
+      {
+        "text": "17.2 What is the limitation of this new guide?",
+        "options": [
+          "It is only suitable for a particular generation",
+          "It is too expensive for most travelers",
+          "It doesn’t cover popular tourist attractions"
+        ],
+        "answer": "It is only suitable for a particular generation"
+      }
+    ]
+  },
+  {
+    "question": "Topic: A research into happiness",
+    "sentences": [
+      {
+        "text": "16.1 How has this research into happiness been responded to?",
+        "options": [
+          "It has led to immediate changes in government policy",
+          "It has been completely ignored by the public",
+          "It has not been accurately reported by the media"
+        ],
+        "answer": "It has not been accurately reported by the media"
+      },
+      {
+        "text": "16.2 What is the speaker's opinion on this research in general?",
+        "options": [
+          "The researchers are biased in their approach",
+          "The research has already changed public attitudes",
+          "The research is unlikely to find a conclusive answer"
+        ],
+        "answer": "The research is unlikely to find a conclusive answer"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Criticism of the new novel",
+    "sentences": [
+      {
+        "text": "17.1 What attracts readers to this novel?",
+        "options": [
+          "The characters were interesting",
+          "The book includes detailed historical facts",
+          "The chapters are very short and easy to read"
+        ],
+        "answer": "The characters were interesting"
+      },
+      {
+        "text": "17.2 What is the speaker's opinion about this novel?",
+        "options": [
+          "It will establish the author's popularity",
+          "It needs major editing before publication",
+          "It’s unlikely to appeal to international readers"
+        ],
+        "answer": "It will establish the author's popularity"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Writer's block",
+    "sentences": [
+      {
+        "text": "16.1 What helps writers focus more on writing?",
+        "options": [
+          "Work in noisy environments",
+          "Create dedicated periods",
+          "Rely entirely on inspiration"
+        ],
+        "answer": "Create dedicated periods"
+      },
+      {
+        "text": "16.2 What is a common mistake writers make when generating ideas?",
+        "options": [
+          "Spending too much time researching grammar rules",
+          "Writing ideas only in digital format",
+          "Refusing to seek the advice of other people"
+        ],
+        "answer": "Refusing to seek the advice of other people"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Professionalism at work",
+    "sentences": [
+      {
+        "text": "17.1 How is professionalism demonstrated at work?",
+        "options": [
+          "Avoid giving feedback to colleagues",
+          "Always agree with your manager",
+          "Maintain the positive attitude"
+        ],
+        "answer": "Maintain the positive attitude"
+      },
+      {
+        "text": "17.2 What is the public's view of current professionalism?",
+        "options": [
+          "Reduce opportunities for remote work",
+          "Change its definition",
+          "Increase working hours"
+        ],
+        "answer": "Change its definition"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Making plans",
+    "sentences": [
+      {
+        "text": "16.1 How does creating each small plan help you?",
+        "options": [
+          "They help you make decisions",
+          "They increase your workload",
+          "They delay overall progress"
+        ],
+        "answer": "They help you make decisions"
+      },
+      {
+        "text": "16.2 How does creating a plan help you in general?",
+        "options": [
+          "It removes all risks from the process",
+          "It requires you to set yourself certain limits",
+          "It guarantees immediate success"
+        ],
+        "answer": "It requires you to set yourself certain limits"
+      }
+    ]
+  },
+  {
+    "question": "Topic: A promotion campaign for a product",
+    "sentences": [
+      {
+        "text": "17.1 What do people think about this promotion campaign?",
+        "options": [
+          "It is making exaggerated claims",
+          "It is being ignored completely",
+          "It is too simple to be effective"
+        ],
+        "answer": "It is making exaggerated claims"
+      },
+      {
+        "text": "17.2 What does the speaker think about this campaign?",
+        "options": [
+          "It costs too much to make to be profitable",
+          "It is reaching the wrong audience",
+          "It lacks creativity"
+        ],
+        "answer": "It costs too much to make to be profitable"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Script production",
+    "sentences": [
+      {
+        "text": "16.1 What is the speaker's opinion on this script?",
+        "options": [
+          "The dialogue is too complex for viewers",
+          "The setting feels too unrealistic",
+          "The characters' background are not adequately explored"
+        ],
+        "answer": "The characters' background are not adequately explored"
+      },
+      {
+        "text": "16.2 How do industries impact script production?",
+        "options": [
+          "They provide more creative freedom to writers",
+          "The new industry demands have a negative influence.",
+          "They increase audience engagement significantly"
+        ],
+        "answer": "The new industry demands have a negative influence."
+      }
+    ]
+  },
+  {
+    "question": "Topic: A new restaurant",
+    "sentences": [
+      {
+        "text": "17.1 How is this restaurant reviewed by customers?",
+        "options": [
+          "The food was too exotic for locals",
+          "The location is difficult to find",
+          "The standard of service wasn’t good"
+        ],
+        "answer": "The standard of service wasn’t good"
+      },
+      {
+        "text": "17.2 What should this restaurant do?",
+        "options": [
+          "They need to make the customers feel valued and welcome",
+          "They should increase their prices for profit",
+          "They need to focus only on online orders"
+        ],
+        "answer": "They need to make the customers feel valued and welcome"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Work from home",
+    "sentences": [
+      {
+        "text": "16.1 How does she feel about working from home?",
+        "options": [
+          "It wasn't as good as she expected",
+          "It gave her more free time than expected",
+          "It helped her become more productive"
+        ],
+        "answer": "It wasn't as good as she expected"
+      },
+      {
+        "text": "16.2 What is her opinion on working from home in general?",
+        "options": [
+          "It depends on your situation and personality",
+          "It's better than working in an office for everyone",
+          "It should be avoided whenever possible"
+        ],
+        "answer": "It depends on your situation and personality"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Managing financial spending",
+    "sentences": [
+      {
+        "text": "17.1 What should you do to better control your short-term spending?",
+        "options": [
+          "Monitor your spending for a weekly plan",
+          "Avoid all unnecessary purchases entirely",
+          "Use only cash instead of cards"
+        ],
+        "answer": "Monitor your spending for a weekly plan"
+      },
+      {
+        "text": "17.2 What should you do to better control your long-term spending?",
+        "options": [
+          "Seek advice from someone who have experience",
+          "Stop spending on entertainment altogether",
+          "Track every single expense daily"
+        ],
+        "answer": "Seek advice from someone who have experience"
+      }
+    ]
+  },
+  {
+    "question": "Topic: The importance of sleep",
+    "sentences": [
+      {
+        "text": "16.1 What is the way to have a good sleep according to the speaker?",
+        "options": [
+          "Sleeping fewer hours increases deep sleep quality",
+          "Drinking coffee before bed helps relax the mind",
+          "Blocking out noise and light is key"
+        ],
+        "answer": "Blocking out noise and light is key"
+      },
+      {
+        "text": "16.2 What is the speaker's view on insomnia in general?",
+        "options": [
+          "People can't always recognize the symptoms of tiredness",
+          "Most people with insomnia actually sleep too much",
+          "Insomnia is caused only by physical health problems"
+        ],
+        "answer": "People can't always recognize the symptoms of tiredness"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Nutritionist",
+    "sentences": [
+      {
+        "text": "16.1 When did she become a Nutritionist?",
+        "options": [
+          "When she did a biology degree.",
+          "After working in a hospital.",
+          "When she worked at a healthcare center."
+        ],
+        "answer": "When she did a biology degree."
+      },
+      {
+        "text": "16.2 When did she become famous?",
+        "options": [
+          "After solving people's problems in a helpline.",
+          "After appearing on a famous TV show.",
+          "After inventing a new type of food."
+        ],
+        "answer": "After solving people's problems in a helpline."
+      }
+    ]
+  },
+  {
+    "question": "Topic: Cycling expedition",
+    "sentences": [
+      {
+        "text": "17.1 What is the speaker's advice?",
+        "options": [
+          "Be well informed of the places you are going to visit.",
+          "Always carry extra water and food supplies.",
+          "Avoid cycling on rough terrain."
+        ],
+        "answer": "Be well informed of the places you are going to visit."
+      },
+      {
+        "text": "17.2 What is the speaker's advice in general?",
+        "options": [
+          "Knowing the people and cultures in the different countries.",
+          "Only visit places with good weather conditions.",
+          "Cycle at your own pace without worrying about the destination."
+        ],
+        "answer": "Knowing the people and cultures in the different countries."
+      }
+    ]
+  }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "question": "Where is the train [___] in this town?",
+    "sentences": [
+      {
+        "text": "Where is the train [___] in this town?",
+        "options": [
+          "station",
+          "school",
+          "market"
+        ],
+        "answer": "station"
+      },
+      {
+        "text": "The bus [___] here every morning.",
+        "options": [
+          "runs",
+          "stops",
+          "flies"
+        ],
+        "answer": "stops"
+      },
+      {
+        "text": "The traffic light is [___] so you can go now.",
+        "options": [
+          "red",
+          "yellow",
+          "green"
+        ],
+        "answer": "green"
+      },
+      {
+        "text": "We usually have [___] at 7 p.m.",
+        "options": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "answer": "dinner"
+      },
+      {
+        "text": "Do you like watching [___] on weekends?",
+        "options": [
+          "books",
+          "movies",
+          "hotdog"
+        ],
+        "answer": "movies"
+      }
+    ]
+  },
+  {
+    "question": "I always study in the [___] before school.",
+    "sentences": [
+      {
+        "text": "I always study in the [___] before school.",
+        "options": [
+          "morning",
+          "sea",
+          "roof"
+        ],
+        "answer": "morning"
+      },
+      {
+        "text": "My [___] and I play football after class.",
+        "options": [
+          "friends",
+          "dog",
+          "tree"
+        ],
+        "answer": "friends"
+      },
+      {
+        "text": "I always [___] my bag on the chair.",
+        "options": [
+          "leave",
+          "go",
+          "love"
+        ],
+        "answer": "leave"
+      },
+      {
+        "text": "Apples are very [___] for your health.",
+        "options": [
+          "hate",
+          "lovely",
+          "good"
+        ],
+        "answer": "good"
+      },
+      {
+        "text": "We eat rice and [___] every day.",
+        "options": [
+          "food",
+          "books",
+          "games"
+        ],
+        "answer": "food"
+      }
+    ]
+  },
+  {
+    "question": "Where is your [___] ?",
+    "sentences": [
+      {
+        "text": "Where is your [___] ?",
+        "options": [
+          "home",
+          "sea",
+          "park"
+        ],
+        "answer": "home"
+      },
+      {
+        "text": "Do you talk to [___] at work?",
+        "options": [
+          "customers",
+          "bird",
+          "chair"
+        ],
+        "answer": "customers"
+      },
+      {
+        "text": "Is the task [___] for you?",
+        "options": [
+          "easy",
+          "go",
+          "bring"
+        ],
+        "answer": "easy"
+      },
+      {
+        "text": "What do you [___] in the morning?",
+        "options": [
+          "prepare",
+          "big",
+          "team"
+        ],
+        "answer": "prepare"
+      },
+      {
+        "text": "What do you like to [___] on TV?",
+        "options": [
+          "watch",
+          "read",
+          "take"
+        ],
+        "answer": "watch"
+      }
+    ]
+  },
+  {
+    "question": "Do you jog in the [___] in the morning?",
+    "sentences": [
+      {
+        "text": "Do you jog in the [___] in the morning?",
+        "options": [
+          "park",
+          "moon",
+          "tree"
+        ],
+        "answer": "park"
+      },
+      {
+        "text": "Does the gym offer [___] for yoga?",
+        "options": [
+          "classes",
+          "running",
+          "books"
+        ],
+        "answer": "classes"
+      },
+      {
+        "text": "Is English [___] for you?",
+        "options": [
+          "easy",
+          "try",
+          "bye"
+        ],
+        "answer": "easy"
+      },
+      {
+        "text": "What do you eat for [___] every day?",
+        "options": [
+          "breakfast",
+          "love",
+          "cold"
+        ],
+        "answer": "breakfast"
+      },
+      {
+        "text": "Do you practice [___] to relax?",
+        "options": [
+          "meditation",
+          "book",
+          "healthy"
+        ],
+        "answer": "meditation"
+      }
+    ]
+  },
+  {
+    "question": "Is your neighborhood [___] ?",
+    "sentences": [
+      {
+        "text": "Is your neighborhood [___] ?",
+        "options": [
+          "friendly",
+          "hate",
+          "big"
+        ],
+        "answer": "friendly"
+      },
+      {
+        "text": "How do you usually [___] to work?",
+        "options": [
+          "run",
+          "walk",
+          "buy"
+        ],
+        "answer": "walk"
+      },
+      {
+        "text": "When did you meet your friend [___] ?",
+        "options": [
+          "first",
+          "love",
+          "bring"
+        ],
+        "answer": "first"
+      },
+      {
+        "text": "Can you [___] French?",
+        "options": [
+          "speak",
+          "big",
+          "most"
+        ],
+        "answer": "speak"
+      },
+      {
+        "text": "Do you like going out [___] with your friends?",
+        "options": [
+          "alone",
+          "together",
+          "morning"
+        ],
+        "answer": "together"
+      }
+    ]
+  },
+  {
+    "question": "I go to school by [___] .",
+    "sentences": [
+      {
+        "text": "I go to school by [___] .",
+        "options": [
+          "spaceship",
+          "plane",
+          "bicycle"
+        ],
+        "answer": "bicycle"
+      },
+      {
+        "text": "The buildings in my city are very [___] .",
+        "options": [
+          "hate",
+          "tall",
+          "went"
+        ],
+        "answer": "tall"
+      },
+      {
+        "text": "There are many green [___] near my home.",
+        "options": [
+          "road",
+          "buy",
+          "trees"
+        ],
+        "answer": "trees"
+      },
+      {
+        "text": "I eat [___] with my family every morning.",
+        "options": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "answer": "breakfast"
+      },
+      {
+        "text": "I play [___] to feel relaxed.",
+        "options": [
+          "games",
+          "make",
+          "time"
+        ],
+        "answer": "games"
+      }
+    ]
+  },
+  {
+    "question": "I want to [___] my grandparents this weekend.",
+    "sentences": [
+      {
+        "text": "I want to [___] my grandparents this weekend.",
+        "options": [
+          "visit",
+          "clean",
+          "run"
+        ],
+        "answer": "visit"
+      },
+      {
+        "text": "My [___] is very clean and bright.",
+        "options": [
+          "room",
+          "father",
+          "mother"
+        ],
+        "answer": "room"
+      },
+      {
+        "text": "The weather is [___] today.",
+        "options": [
+          "big",
+          "hot",
+          "small"
+        ],
+        "answer": "hot"
+      },
+      {
+        "text": "We went to the city by [___] .",
+        "options": [
+          "spaceship",
+          "plane",
+          "train"
+        ],
+        "answer": "train"
+      },
+      {
+        "text": "I can [___] English very well.",
+        "options": [
+          "make",
+          "speak",
+          "love"
+        ],
+        "answer": "speak"
+      }
+    ]
+  },
+  {
+    "question": "My uncle works on a [___] .",
+    "sentences": [
+      {
+        "text": "My uncle works on a [___] .",
+        "options": [
+          "farm",
+          "compare",
+          "spare"
+        ],
+        "answer": "farm"
+      },
+      {
+        "text": "The children were very [___] about the trip.",
+        "options": [
+          "run",
+          "excited",
+          "most"
+        ],
+        "answer": "excited"
+      },
+      {
+        "text": "Turn [___] at the next corner.",
+        "options": [
+          "big",
+          "left",
+          "go"
+        ],
+        "answer": "left"
+      },
+      {
+        "text": "We walked along the [___] to the park.",
+        "options": [
+          "water",
+          "street",
+          "cloud"
+        ],
+        "answer": "street"
+      },
+      {
+        "text": "I usually [___] milk in the morning.",
+        "options": [
+          "stone",
+          "drink",
+          "school"
+        ],
+        "answer": "drink"
+      }
+    ]
+  },
+  {
+    "question": "I usually stay at [___] on Sundays.",
+    "sentences": [
+      {
+        "text": "I usually stay at [___] on Sundays.",
+        "options": [
+          "cloud",
+          "home",
+          "road"
+        ],
+        "answer": "home"
+      },
+      {
+        "text": "My father can [___] very well.",
+        "options": [
+          "fly",
+          "drive",
+          "big"
+        ],
+        "answer": "drive"
+      },
+      {
+        "text": "I like spending time with my [___] after school.",
+        "options": [
+          "tree",
+          "friends",
+          "go"
+        ],
+        "answer": "friends"
+      },
+      {
+        "text": "Let’s go for a [___] in the park.",
+        "options": [
+          "walk",
+          "big",
+          "sea"
+        ],
+        "answer": "walk"
+      },
+      {
+        "text": "Your sister looks very [___] today.",
+        "options": [
+          "pretty",
+          "father",
+          "went"
+        ],
+        "answer": "pretty"
+      }
+    ]
+  },
+  {
+    "question": "I want to travel to the [___] this summer.",
+    "sentences": [
+      {
+        "text": "I want to travel to the [___] this summer.",
+        "options": [
+          "country",
+          "small",
+          "big"
+        ],
+        "answer": "country"
+      },
+      {
+        "text": "Please keep your room [___] .",
+        "options": [
+          "green",
+          "boring",
+          "clean"
+        ],
+        "answer": "clean"
+      },
+      {
+        "text": "We have English [___] on Monday.",
+        "options": [
+          "class",
+          "lunch",
+          "sea"
+        ],
+        "answer": "class"
+      },
+      {
+        "text": "I like helping [___] people.",
+        "options": [
+          "myself",
+          "father",
+          "other"
+        ],
+        "answer": "other"
+      },
+      {
+        "text": "Can you spell these [___] for me?",
+        "options": [
+          "small",
+          "bring",
+          "words"
+        ],
+        "answer": "words"
+      }
+    ]
+  },
+  {
+    "question": "My bedroom is very [___] .",
+    "sentences": [
+      {
+        "text": "My bedroom is very [___] .",
+        "options": [
+          "boring",
+          "small",
+          "healthy"
+        ],
+        "answer": "small"
+      },
+      {
+        "text": "We usually [___] at a hotel on vacation.",
+        "options": [
+          "stay",
+          "movie",
+          "bring"
+        ],
+        "answer": "stay"
+      },
+      {
+        "text": "There are many flowers in the [___] .",
+        "options": [
+          "sky",
+          "garden",
+          "water"
+        ],
+        "answer": "garden"
+      },
+      {
+        "text": "Some [___] near my home are very tall.",
+        "options": [
+          "cloud",
+          "trees",
+          "morning"
+        ],
+        "answer": "trees"
+      },
+      {
+        "text": "My grandfather is very [___] but still strong.",
+        "options": [
+          "hot",
+          "old",
+          "free"
+        ],
+        "answer": "old"
+      }
+    ]
+  },
+  {
+    "question": "I [___] reading books in the library.",
+    "sentences": [
+      {
+        "text": "I [___] reading books in the library.",
+        "options": [
+          "love",
+          "make",
+          "run"
+        ],
+        "answer": "love"
+      },
+      {
+        "text": "My bag is a bit [___] for my laptop.",
+        "options": [
+          "mean",
+          "small",
+          "again"
+        ],
+        "answer": "small"
+      },
+      {
+        "text": "Can you go to the [___] to buy some milk?",
+        "options": [
+          "shop",
+          "park",
+          "sea"
+        ],
+        "answer": "shop"
+      },
+      {
+        "text": "There are many [___] in the class.",
+        "options": [
+          "people",
+          "birds",
+          "trees"
+        ],
+        "answer": "people"
+      },
+      {
+        "text": "They want to [___] the class.",
+        "options": [
+          "room",
+          "visit",
+          "fly"
+        ],
+        "answer": "visit"
+      }
+    ]
+  },
+  {
+    "question": "I drink coffee in the [___] .",
+    "sentences": [
+      {
+        "text": "I drink coffee in the [___] .",
+        "options": [
+          "morning",
+          "sky",
+          "free"
+        ],
+        "answer": "morning"
+      },
+      {
+        "text": "Children play in the [___] .",
+        "options": [
+          "park",
+          "big",
+          "hot"
+        ],
+        "answer": "park"
+      },
+      {
+        "text": "What time do you [___] home?",
+        "options": [
+          "leave",
+          "bring",
+          "stop"
+        ],
+        "answer": "leave"
+      },
+      {
+        "text": "We eat bread for [___] .",
+        "options": [
+          "breakfast",
+          "train",
+          "time"
+        ],
+        "answer": "breakfast"
+      },
+      {
+        "text": "Nice to [___] you.",
+        "options": [
+          "meet",
+          "hate",
+          "look"
+        ],
+        "answer": "meet"
+      }
+    ]
+  }
+]

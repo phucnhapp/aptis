@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aptis Practice Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f4f7f9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .container { max-width: 900px; margin-top: 50px; }
+        .skill-card {
+            border: none;
+            border-radius: 15px;
+            transition: transform 0.2s;
+            background: white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+        .skill-header {
+            padding: 15px 25px;
+            border-radius: 15px 15px 0 0;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .bg-listening { background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%); }
+        .bg-reading { background: linear-gradient(45deg, #667eea 0%, #764ba2 100%); }
+        
+        .list-group-item {
+            border: none;
+            padding: 15px 25px;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .list-group-item:last-child { border-bottom: none; }
+        .list-group-item:hover { background-color: #f8f9ff; }
+        
+        .btn-study {
+            border-radius: 20px;
+            padding: 5px 20px;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .btn-listening { border: 1px solid #4facfe; color: #4facfe; }
+        .btn-listening:hover { background: #4facfe; color: white; }
+        
+        .btn-reading { border: 1px solid #764ba2; color: #764ba2; }
+        .btn-reading:hover { background: #764ba2; color: white; }
+
+        .badge-type { font-size: 0.75rem; vertical-align: middle; margin-left: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold text-dark">Aptis ESOL Preparation</h1>
+        <p class="text-muted">Hệ thống luyện tập cá nhân - PhucNH</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="skill-card">
+                <div class="skill-header bg-listening">
+                    <span>🎧 LISTENING SKILLS</span>
+                </div>
+                <div class="list-group">
+                    <div class="list-group-item">
+                        <div>
+                            <strong>Part 1-13</strong>
+                            <span class="badge bg-light text-primary border badge-type">Single Choice</span>
+                        </div>
+                        <a href="listening_question1_13.html" class="btn-study btn-listening">Học ngay</a>
+                    </div>
+                    <div class="list-group-item">
+                        <div>
+                            <strong>Part 14</strong>
+                            <span class="badge bg-light text-primary border badge-type">Ordering</span>
+                        </div>
+                        <a href="listening_question14.html" class="btn-study btn-listening">Học ngay</a>
+                    </div>
+                    <div class="list-group-item">
+                        <div>
+                            <strong>Part 15</strong>
+                            <span class="badge bg-light text-primary border badge-type">Matching</span>
+                        </div>
+                        <a href="listening_question15.html" class="btn-study btn-listening">Học ngay</a>
+                    </div>
+                    <div class="list-group-item">
+                        <div>
+                            <strong>Part 16-17</strong>
+                            <span class="badge bg-light text-primary border badge-type">Dropdown</span>
+                        </div>
+                        <a href="listening_question16_17.html" class="btn-study btn-listening">Học ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="skill-card">
+                <div class="skill-header bg-reading">
+                    <span>📖 READING SKILLS</span>
+                </div>
+                <div class="list-group">
+                    <div class="list-group-item">
+                        <div>
+                            <strong>Task 1</strong>
+                            <span class="badge bg-light text-secondary border badge-type">Fill Blanks</span>
+                        </div>
+                        <a href="reading_question1.html" class="btn-study btn-reading">Học ngay</a>
+                    </div>
+                    <div class="list-group-item">
+                        <div>
+                            <strong>Task 2-3</strong>
+                            <span class="badge bg-light text-secondary border badge-type">Ordering</span>
+                        </div>
+                        <a href="reading_question2.html" class="btn-study btn-reading">Học ngay</a>
+                    </div>
+                    <div class="list-group-item">
+                        <div>
+                            <strong>Task 4</strong>
+                            <span class="badge bg-light text-secondary border badge-type">Ko học tủ</span>
+                        </div>
+                        <a href="#" class="btn-study btn-reading" disabled>Ko học tủ</a>
+                    </div>
+                    <div class="list-group-item">
+                        <div>
+                            <strong>Task 5</strong>
+                            <span class="badge bg-light text-secondary border badge-type">Headings</span>
+                        </div>
+                        <a href="reading_question5.html" class="btn-study btn-reading">Học ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5 pb-5">
+        <small class="text-muted">Dữ liệu được cập nhật từ đôi bàn tay này.</small>
+    </footer>
+</div>
+
+</body>
+</html>

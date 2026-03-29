@@ -1,0 +1,1631 @@
+[
+  {
+    "question": "What is not original?",
+    "options": [
+      "Furniture",
+      "Home",
+      "Bicycle"
+    ],
+    "answer": "Furniture"
+  },
+  {
+    "question": "What did she advice for people who lack motivation at work?",
+    "options": [
+      "Attend a time management workshop",
+      "Request a transfer",
+      "Take on additional responsibilities"
+    ],
+    "answer": "Request a transfer"
+  },
+  {
+    "question": "What time do they meet?",
+    "options": [
+      "6.30pm",
+      "8.00pm",
+      "7.00pm"
+    ],
+    "answer": "6.30pm"
+  },
+  {
+    "question": "Where does she go shopping?",
+    "options": [
+      "at a new shopping mall",
+      "at a department store",
+      "at a local market"
+    ],
+    "answer": "at a new shopping mall"
+  },
+  {
+    "question": "What is her favorite thing to do in her spare time?",
+    "options": [
+      "watching a movie at home",
+      "going to the theatre",
+      "playing sports"
+    ],
+    "answer": "going to the theatre"
+  },
+  {
+    "question": "Which sports is she good at?",
+    "options": [
+      "Running",
+      "Swimming",
+      "Football"
+    ],
+    "answer": "Football"
+  },
+  {
+    "question": "The woman is discussing her new exercise routine. How much time does she spend cycling?",
+    "options": [
+      "45 minutes",
+      "35 minutes",
+      "60 minutes"
+    ],
+    "answer": "35 minutes"
+  },
+  {
+    "question": "When do they meet each other?",
+    "options": [
+      "On Thursday morning",
+      "On Wednesday morning",
+      "On monday morning"
+    ],
+    "answer": "On Thursday morning"
+  },
+  {
+    "question": "A woman is calling her son. What time will the mother meet the son?",
+    "options": [
+      "Six o’clock",
+      "Two o’clock",
+      "Three o'clock"
+    ],
+    "answer": "Three o'clock"
+  },
+  {
+    "question": "Jack is calling to invite a friend to his house. What color is Jack’s house??",
+    "options": [
+      "Black",
+      "Red",
+      "Green"
+    ],
+    "answer": "Red"
+  },
+  {
+    "question": "A man is talking about his daily routine. What does he do after work?",
+    "options": [
+      "Go home",
+      "Go to the coffee shop",
+      "Play football"
+    ],
+    "answer": "Play football"
+  },
+  {
+    "question": "A mom is talking to her son. What does the son like to study?",
+    "options": [
+      "Art",
+      "Math",
+      "Science"
+    ],
+    "answer": "Art"
+  },
+  {
+    "question": "How many weeks did they spend in India?",
+    "options": [
+      "Three weeks",
+      "Two weeks",
+      "One week"
+    ],
+    "answer": "Two weeks"
+  },
+  {
+    "question": "Doctor’s office is calling about a change in the appointment. When is the new appointment?",
+    "options": [
+      "Thursday 13th",
+      "Friday 14th",
+      "Wednesday 12th"
+    ],
+    "answer": "Thursday 13th"
+  },
+  {
+    "question": "A man is ordering a drink. What does he want?",
+    "options": [
+      "Water",
+      "Iced tea",
+      "Beer"
+    ],
+    "answer": "Iced tea"
+  },
+  {
+    "question": "An author is talking about her daily routine. When does she usually write?",
+    "options": [
+      "In the afternoons",
+      "In the mornings",
+      "At night"
+    ],
+    "answer": "In the afternoons"
+  },
+  {
+    "question": "How does he travel?",
+    "options": [
+      "By car",
+      "By plane",
+      "By train"
+    ],
+    "answer": "By train"
+  },
+  {
+    "question": "A woman is talking about her usual Saturday routine. What does she usually do on Saturdays?",
+    "options": [
+      "Goes shopping",
+      "Sees her family",
+      "Goes to a birthday party"
+    ],
+    "answer": "Sees her family"
+  },
+  {
+    "question": "A man is talking about his family trip. What does the man’s wife enjoy?",
+    "options": [
+      "Photography",
+      "Shopping",
+      "Hiking"
+    ],
+    "answer": "Photography"
+  },
+  {
+    "question": "A woman is talking about her job. What encouraged her to become a scientist?",
+    "options": [
+      "Her computer",
+      "Her mother",
+      "A large stone"
+    ],
+    "answer": "A large stone"
+  },
+  {
+    "question": "Listen to the speaker talking about their weekly schedule. When is the meeting scheduled?",
+    "options": [
+      "Monday morning",
+      "Friday afternoon",
+      "Wednesday afternoon"
+    ],
+    "answer": "Wednesday afternoon"
+  },
+  {
+    "question": "A man is reading the news about a housing development plan. How many new houses are going to be built?",
+    "options": [
+      "1500",
+      "2000",
+      "2500"
+    ],
+    "answer": "2000"
+  },
+  {
+    "question": "Listen to a writer talking about her job. What is her first job?",
+    "options": [
+      "Writer",
+      "Librarian",
+      "Teacher"
+    ],
+    "answer": "Teacher"
+  },
+  {
+    "question": "Listen to Marry talking to Jane while waiting for James. What did they decide to do?",
+    "options": [
+      "Cancel the meeting",
+      "Having the meeting without him",
+      "Wait for him longer"
+    ],
+    "answer": "Having the meeting without him"
+  },
+  {
+    "question": "A woman is talking to her coworker. When does the meeting start?",
+    "options": [
+      "10.15",
+      "10.30",
+      "9.45"
+    ],
+    "answer": "10.15"
+  },
+  {
+    "question": "Vincent is calling James. Why does Vincent call James?",
+    "options": [
+      "Invite him to a party",
+      "Suggest a drink",
+      "Ask for help"
+    ],
+    "answer": "Suggest a drink"
+  },
+  {
+    "question": "What did the mother call her daughter to help her buy?",
+    "options": [
+      "eggs",
+      "bread",
+      "milk"
+    ],
+    "answer": "eggs"
+  },
+  {
+    "question": "Samia is going to meet her friend. What time are they going to meet?",
+    "options": [
+      "9:30",
+      "11:00",
+      "10:00"
+    ],
+    "answer": "10:00"
+  },
+  {
+    "question": "Anna is calling her brother Max. What does Anna do later in the afternoon?",
+    "options": [
+      "Pick up the kids",
+      "Stay late at the office",
+      "Hang out with friends"
+    ],
+    "answer": "Stay late at the office"
+  },
+  {
+    "question": "A woman is talking about her favorite film on the radio. What film did she recommend?",
+    "options": [
+      "Action film",
+      "Romantic film",
+      "Comedy film"
+    ],
+    "answer": "Action film"
+  },
+  {
+    "question": "Where does Malik want to go?",
+    "options": [
+      "The town hall",
+      "The library",
+      "The park"
+    ],
+    "answer": "The town hall"
+  },
+  {
+    "question": "Greg is talking about a working day in his life. How does he go to work?",
+    "options": [
+      "By bus",
+      "By car",
+      "By bike"
+    ],
+    "answer": "By bus"
+  },
+  {
+    "question": "Listen to a nutrition expert. What time is the best for children to eat fruit?",
+    "options": [
+      "In the morning",
+      "In the afternoon",
+      "In the evening"
+    ],
+    "answer": "In the morning"
+  },
+  {
+    "question": "Listen to a woman explaining her morning routine to her friend. Why do women get up early?",
+    "options": [
+      "To go to work",
+      "To take care of their kids",
+      "To have some quiet time"
+    ],
+    "answer": "To have some quiet time"
+  },
+  {
+    "question": "A man is talking to his friend. Why does he need to learn to drive?",
+    "options": [
+      "To go on a road trip",
+      "To take his family on vacations",
+      "He has to drive to work"
+    ],
+    "answer": "He has to drive to work"
+  },
+  {
+    "question": "Two friends are talking with each other. What did they both buy?",
+    "options": [
+      "Clothes",
+      "Shoes",
+      "Books"
+    ],
+    "answer": "Clothes"
+  },
+  {
+    "question": "What area is he describing?",
+    "options": [
+      "A shopping district",
+      "A university area",
+      "A residential neighborhood"
+    ],
+    "answer": "A university area"
+  },
+  {
+    "question": "A man wants to buy a new house. What is his biggest problem?",
+    "options": [
+      "Finding the right house",
+      "Persuading his family",
+      "Getting the financing"
+    ],
+    "answer": "Persuading his family"
+  },
+  {
+    "question": "Listening to a tour guide talking about Rock City. How old is the city?",
+    "options": [
+      "1000 years",
+      "2000 years",
+      "1500 years"
+    ],
+    "answer": "1500 years"
+  },
+  {
+    "question": "Listen to the instructions of a university. Where is the main office?",
+    "options": [
+      "in the basement",
+      "on the first floor",
+      "on the second floor"
+    ],
+    "answer": "on the first floor"
+  },
+  {
+    "question": "How much can Max pay for the computer?",
+    "options": [
+      "200 pounds",
+      "250 pounds",
+      "300 pounds"
+    ],
+    "answer": "250 pounds"
+  },
+  {
+    "question": "Where does he want to go tomorrow?",
+    "options": [
+      "The park",
+      "The cinema",
+      "The town hall"
+    ],
+    "answer": "The town hall"
+  },
+  {
+    "question": "What will they bring to the picnic?",
+    "options": [
+      "Drinks",
+      "Food",
+      "Snacks"
+    ],
+    "answer": "Food"
+  },
+  {
+    "question": "How many people live in the town?",
+    "options": [
+      "5,000",
+      "10,000",
+      "20,000"
+    ],
+    "answer": "10,000"
+  },
+  {
+    "question": "Where are they going to meet?",
+    "options": [
+      "at the park",
+      "at the station",
+      "at the university"
+    ],
+    "answer": "at the park"
+  },
+  {
+    "question": "What color top is he going to buy?",
+    "options": [
+      "Green",
+      "Red",
+      "Black"
+    ],
+    "answer": "Black"
+  },
+  {
+    "question": "What career did he choose?",
+    "options": [
+      "to work in business",
+      "to become a teacher",
+      "to become a researcher"
+    ],
+    "answer": "to work in business"
+  },
+  {
+    "question": "When is the assignment due?",
+    "options": [
+      "on Friday",
+      "on Saturday",
+      "on Sunday"
+    ],
+    "answer": "on Saturday"
+  },
+  {
+    "question": "What course did he take? / Listen to a student talking about his study. What course is the student going to take this year?",
+    "options": [
+      "English",
+      "Math",
+      "Computer"
+    ],
+    "answer": "Computer"
+  },
+  {
+    "question": "What did she like best about the film?",
+    "options": [
+      "the mountain scenes",
+      "the action scenes",
+      "the ending"
+    ],
+    "answer": "the mountain scenes"
+  },
+  {
+    "question": "What elements of the film do they agree on?",
+    "options": [
+      "the soundtrack",
+      "the characters",
+      "the ending"
+    ],
+    "answer": "the ending"
+  },
+  {
+    "question": "Why does Douglas call Kay?",
+    "options": [
+      "to ask for a favor",
+      "to say thank you",
+      "to discuss ideas"
+    ],
+    "answer": "to say thank you"
+  },
+  {
+    "question": "Listen to the director talking about sales of his company. How many copies of Freeze Frame magazine were sold?",
+    "options": [
+      "Over 200,000 copies",
+      "Over 300,000 copies",
+      "Over 500,000 copies"
+    ],
+    "answer": "Over 300,000 copies"
+  },
+  {
+    "question": "Where will they meet to take a bus to home? / Anna is calling her friend. Where will they meet?",
+    "options": [
+      "At the bus stop",
+      "At the park",
+      "At the marketplace"
+    ],
+    "answer": "At the marketplace"
+  },
+  {
+    "question": "What did he leave at a friend’s house? / What did the man lose?",
+    "options": [
+      "Wallet",
+      "Phone",
+      "Glasses"
+    ],
+    "answer": "Glasses"
+  },
+  {
+    "question": "Listen to the conversation. Who is she taking a photo of?",
+    "options": [
+      "The girl's team",
+      "The boys' team",
+      "The coaches"
+    ],
+    "answer": "The girl's team"
+  },
+  {
+    "question": "Listen to David talking about the conference. How long did he talk in the speech?",
+    "options": [
+      "10 minutes",
+      "15 minutes",
+      "20 minutes"
+    ],
+    "answer": "15 minutes"
+  },
+  {
+    "question": "A woman is talking about her family’s weekend. What does the family do most weekends?",
+    "options": [
+      "Go for a walk",
+      "Go to the beach",
+      "Visit relatives"
+    ],
+    "answer": "Go for a walk"
+  },
+  {
+    "question": "A girl is calling her mother. Which dress does she want?",
+    "options": [
+      "Short and blue",
+      "Long and white",
+      "Long and red"
+    ],
+    "answer": "Long and red"
+  },
+  {
+    "question": "Soobin is talking about his favorite room. What is Soobin's favorite room?",
+    "options": [
+      "Kitchen",
+      "Living room",
+      "Bathroom"
+    ],
+    "answer": "Bathroom"
+  },
+  {
+    "question": "A woman is talking about her weekends. What did she do last week?",
+    "options": [
+      "Went out with friends",
+      "Stayed at home",
+      "Visited a café"
+    ],
+    "answer": "Stayed at home"
+  },
+  {
+    "question": "Listen to a saleswoman talking about a property. Which room is the largest?",
+    "options": [
+      "Living room",
+      "Bedroom",
+      "Kitchen"
+    ],
+    "answer": "Kitchen"
+  },
+  {
+    "question": "Two friends are talking about their trip. What will the weather be like?",
+    "options": [
+      "Cold and wet",
+      "Hot and sunny",
+      "Mild and dry"
+    ],
+    "answer": "Cold and wet"
+  },
+  {
+    "question": "A customer is calling the hotline of a department store. Which number to press in order to buy a computer?",
+    "options": [
+      "One",
+      "Two",
+      "Three"
+    ],
+    "answer": "Three"
+  },
+  {
+    "question": "How does she go to school?",
+    "options": [
+      "She drives",
+      "She takes the bus",
+      "She walks"
+    ],
+    "answer": "She walks"
+  },
+  {
+    "question": "Listen to the announcement. When does the train leave the station?",
+    "options": [
+      "9:30",
+      "9:00",
+      "9:15"
+    ],
+    "answer": "9:15"
+  },
+  {
+    "question": "Jana is talking to her friend. What does Jana’s sister look like?",
+    "options": [
+      "Blonde",
+      "Tall",
+      "Short"
+    ],
+    "answer": "Short"
+  },
+  {
+    "question": "What does her sister drink? / Linda is talking about what she likes to eat. What does she have for lunch?",
+    "options": [
+      "Tea",
+      "Juice",
+      "Coffee"
+    ],
+    "answer": "Tea"
+  },
+  {
+    "question": "A man is calling his wife. Where do the couple meet?",
+    "options": [
+      "At the restaurant",
+      "At the station",
+      "Outside a shop"
+    ],
+    "answer": "Outside a shop"
+  },
+  {
+    "question": "A man is talking about his eating habit. What time does he usually eat?",
+    "options": [
+      "8 o'clock",
+      "7 o'clock",
+      "5 o'clock"
+    ],
+    "answer": "7 o'clock"
+  },
+  {
+    "question": "A professor is talking to his student. What does the professor ask his student to do?",
+    "options": [
+      "Submit a report",
+      "Speak at the conference",
+      "Write an essay"
+    ],
+    "answer": "Speak at the conference"
+  },
+  {
+    "question": "A man and a woman are talking about their old school days. What was the man's favorite thing about school?",
+    "options": [
+      "Math classes",
+      "History classes",
+      "Sports"
+    ],
+    "answer": "History classes"
+  },
+  {
+    "question": "Where did she go for the holiday? / Listen to the woman talking about her holiday plans. Where is she going next?",
+    "options": [
+      "The east",
+      "The north",
+      "The south"
+    ],
+    "answer": "The south"
+  },
+  {
+    "question": "Listen to a radio man talking about a new popular song. Which is the most attractive part of the song?",
+    "options": [
+      "The melody",
+      "The rhythm",
+      "The words"
+    ],
+    "answer": "The words"
+  },
+  {
+    "question": "A man is talking about the environment of the countryside. What is the main cause of poor air quality?",
+    "options": [
+      "Factories",
+      "Cars",
+      "Fires from the countryside"
+    ],
+    "answer": "Fires from the countryside"
+  },
+  {
+    "question": "A person calls a friend about his new car. What is the price of the small car?",
+    "options": [
+      "3,250 pounds",
+      "3,550 pounds",
+      "3,000 pounds"
+    ],
+    "answer": "3,250 pounds"
+  },
+  {
+    "question": "Which room will they study in? / Where will the first lesson of computer science take place?",
+    "options": [
+      "Room 301",
+      "Room 101",
+      "Room 203"
+    ],
+    "answer": "Room 301"
+  },
+  {
+    "question": "Stephanie is looking for a job taking care of children. How old is she?",
+    "options": [
+      "21",
+      "25",
+      "30"
+    ],
+    "answer": "21"
+  },
+  {
+    "question": "Listen to a voice message. How does Evan feel?",
+    "options": [
+      "Happy",
+      "Tired",
+      "Sick"
+    ],
+    "answer": "Sick"
+  },
+  {
+    "question": "The train was delayed. What time does the train leave? / Listen to a man talking about their train journey. What time did the train depart?",
+    "options": [
+      "9:00",
+      "9:15",
+      "9:30"
+    ],
+    "answer": "9:30"
+  },
+  {
+    "question": "A man and woman are discussing their plans for the evening. What do the man and woman decide to do in the evening?",
+    "options": [
+      "Go to the movies",
+      "Make plans later",
+      "Stay at home"
+    ],
+    "answer": "Make plans later"
+  },
+  {
+    "question": "A woman is talking about her holiday plan. Where is she going on holidays?",
+    "options": [
+      "The beach",
+      "The mountains",
+      "The city"
+    ],
+    "answer": "The mountains"
+  },
+  {
+    "question": "A tour guide is talking about the group's traveling schedule. Where will the group wait for the bus?",
+    "options": [
+      "By the hotel's main entrance",
+      "In the lobby",
+      "At the train station"
+    ],
+    "answer": "By the hotel's main entrance"
+  },
+  {
+    "question": "Listen to a tour guide introducing the tour. Where will tea be served?",
+    "options": [
+      "In the park",
+      "The hotel",
+      "The river boat"
+    ],
+    "answer": "The river boat"
+  },
+  {
+    "question": "A man is talking about the city concert. How will the concert end?",
+    "options": [
+      "With a fireworks display",
+      "With a famous singer",
+      "With the city's favorite group"
+    ],
+    "answer": "With the city's favorite group"
+  },
+  {
+    "question": "What is the phone number of the store? (0080...) / A man calls the teleshop. What is the teleshop number?",
+    "options": [
+      "201030",
+      "102030",
+      "301020"
+    ],
+    "answer": "201030"
+  },
+  {
+    "question": "Alice is calling her friend. What did she lose?",
+    "options": [
+      "Book",
+      "Phone",
+      "Laptop"
+    ],
+    "answer": "Phone"
+  },
+  {
+    "question": "What time should they meet at the library? What time do men and women meet? / Two people are talking about meeting for dinner. What time does Ahmed meet Rose?",
+    "options": [
+      "8:00 PM",
+      "Quarter to eight",
+      "7:30 PM"
+    ],
+    "answer": "Quarter to eight"
+  },
+  {
+    "question": "A woman is talking about her family’s holidays. What did the family do last year?",
+    "options": [
+      "Camping",
+      "Beach trip",
+      "Road trip"
+    ],
+    "answer": "Camping"
+  },
+  {
+    "question": "The woman is walking into a local store. How much are the cleaning products?",
+    "options": [
+      "Two pounds",
+      "One pound fifty",
+      "Three pounds"
+    ],
+    "answer": "One pound fifty"
+  },
+  {
+    "question": "What advice do they need for decorating their living room? / Mary is talking to her friend about her new home. What does she ask her friend about?",
+    "options": [
+      "Where to buy a new table",
+      "Where to buy a sofa",
+      "Where to buy curtains"
+    ],
+    "answer": "Where to buy a new table"
+  },
+  {
+    "question": "Listen to a weather forecast. Where will the weather be best?",
+    "options": [
+      "In the west",
+      "In the south",
+      "In the east"
+    ],
+    "answer": "In the east"
+  },
+  {
+    "question": "Listen to the announcement from a travel agent representative. Why is the air travel cancelled?",
+    "options": [
+      "Staff shortage",
+      "Poor weather conditions",
+      "Technical issues"
+    ],
+    "answer": "Poor weather conditions"
+  },
+  {
+    "question": "Which platform do you need to take if you want to travel to Edinburgh? / Listen to an announcement. Which platform to wait for the train?",
+    "options": [
+      "Platform One",
+      "Platform Two",
+      "Platform Three"
+    ],
+    "answer": "Platform Two"
+  },
+  {
+    "question": "When will Anna meet her friend? / A man is calling his friend, Maria. When will he see her?",
+    "options": [
+      "10am on Saturday",
+      "8pm on Sunday",
+      "9am on Sunday"
+    ],
+    "answer": "9am on Sunday"
+  },
+  {
+    "question": "How long does it take to get to the station?",
+    "options": [
+      "20 minutes",
+      "15 minutes",
+      "25 minutes"
+    ],
+    "answer": "20 minutes"
+  },
+  {
+    "question": "Why was the trip to the museum delayed? / A tour guide is making an announcement. Why was the tour canceled?",
+    "options": [
+      "Not enough people",
+      "Bad weather",
+      "Transportation issue"
+    ],
+    "answer": "Not enough people"
+  },
+  {
+    "question": "A man is talking about his trip. What did he enjoy last year?",
+    "options": [
+      "Hiking",
+      "Cycling",
+      "Swimming"
+    ],
+    "answer": "Cycling"
+  },
+  {
+    "question": "Where is the girl's office? / Listen to a tour guide. Where is the office located?",
+    "options": [
+      "Opposite the hotel",
+      "Next to the park",
+      "In the shopping mall"
+    ],
+    "answer": "Opposite the hotel"
+  },
+  {
+    "question": "A man is talking about how he goes to work. Why does he prefer traveling by train?",
+    "options": [
+      "It’s cheaper",
+      "It’s comfortable",
+      "Practical"
+    ],
+    "answer": "Practical"
+  },
+  {
+    "question": "A man is calling his friend to meet for coffee. Where is the coffee shop located?",
+    "options": [
+      "Opposite the gift shop",
+      "In the shopping center",
+      "Next to the bookstore"
+    ],
+    "answer": "Opposite the gift shop"
+  },
+  {
+    "question": "Tom is calling his mom. Who is visiting Tom this weekend?",
+    "options": [
+      "His aunt and uncle",
+      "His sister and her children",
+      "His cousin"
+    ],
+    "answer": "His sister and her children"
+  },
+  {
+    "question": "Who does she live with? / A woman is talking about her vacation. What is the relationship between Lisa and the speaker?",
+    "options": [
+      "Best friends",
+      "Cousins",
+      "Sisters"
+    ],
+    "answer": "Best friends"
+  },
+  {
+    "question": "A woman shares her job with her friend. Why does she want to become a writer?",
+    "options": [
+      "Help people",
+      "Become famous",
+      "Earn money"
+    ],
+    "answer": "Help people"
+  },
+  {
+    "question": "A man is talking about his jobs. What does the man want to do next?",
+    "options": [
+      "Become a history teacher",
+      "Become a writer",
+      "Become a chef"
+    ],
+    "answer": "Become a writer"
+  },
+  {
+    "question": "Lucy is calling her brother. What does the brother have to drink?",
+    "options": [
+      "Tea",
+      "Water",
+      "Coffee"
+    ],
+    "answer": "Water"
+  },
+  {
+    "question": "What will she do?",
+    "options": [
+      "Go to work",
+      "Go for a drive",
+      "Stay home"
+    ],
+    "answer": "Go for a drive"
+  },
+  {
+    "question": "Lucy is calling her friend. What is her sister like?",
+    "options": [
+      "She is taller than Lucy",
+      "They have similar characters",
+      "She is very different from Lucy"
+    ],
+    "answer": "They have similar characters"
+  },
+  {
+    "question": "A man and a woman are going shopping. What does he buy in the store?",
+    "options": [
+      "A T-shirt",
+      "A suit for the office",
+      "A hat"
+    ],
+    "answer": "A suit for the office"
+  },
+  {
+    "question": "A tour guide is talking about birds' behaviors. What do birds do in the winter?",
+    "options": [
+      "They stay together in groups for protection",
+      "They fly south",
+      "They hunt for food"
+    ],
+    "answer": "They stay together in groups for protection"
+  },
+  {
+    "question": "How much are the eggs?",
+    "options": [
+      "2 pounds",
+      "3 pounds",
+      "1.50 pounds"
+    ],
+    "answer": "1.50 pounds"
+  },
+  {
+    "question": "A woman is calling her husband. What time is lunch ready?",
+    "options": [
+      "3pm",
+      "1pm",
+      "2pm"
+    ],
+    "answer": "2pm"
+  },
+  {
+    "question": "What time is the meeting?",
+    "options": [
+      "4pm",
+      "3pm",
+      "2pm"
+    ],
+    "answer": "2pm"
+  },
+  {
+    "question": "A man is giving directions to a friend about how to get to the football club. The football club is near?",
+    "options": [
+      "A river",
+      "A park",
+      "A shopping mall"
+    ],
+    "answer": "A park"
+  },
+  {
+    "question": "A boy is talking about his cat. What does he feed the cat?",
+    "options": [
+      "Mice",
+      "Fish",
+      "Birds"
+    ],
+    "answer": "Fish"
+  },
+  {
+    "question": "Jack is phoning his mom. What does Jack need to buy for his sister?",
+    "options": [
+      "Clothes",
+      "Chocolates",
+      "A toy"
+    ],
+    "answer": "Chocolates"
+  },
+  {
+    "question": "Why does she like the manager?",
+    "options": [
+      "He was always strict",
+      "He taught her a lot",
+      "He was very friendly"
+    ],
+    "answer": "He taught her a lot"
+  },
+  {
+    "question": "A woman is talking about her plan for the holiday. What will she do during the holiday?",
+    "options": [
+      "Go for a run",
+      "Go for a bike ride",
+      "Go for a walk"
+    ],
+    "answer": "Go for a walk"
+  },
+  {
+    "question": "Two colleagues talk about meeting. When do they want to meet?",
+    "options": [
+      "Monday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "answer": "Tuesday"
+  },
+  {
+    "question": "A woman is talking about her job. How is being a writer different from other jobs?",
+    "options": [
+      "She works 9 to 5",
+      "She works at irregular times",
+      "She works at a desk all day"
+    ],
+    "answer": "She works at irregular times"
+  },
+  {
+    "question": "A woman is talking about shopping places. Where is she going to go shopping?",
+    "options": [
+      "At the mall",
+      "At a boutique",
+      "At a new shopping center"
+    ],
+    "answer": "At a new shopping center"
+  },
+  {
+    "question": "Jorge is calling his friend about their plan for the weekend. What time does the football match start?",
+    "options": [
+      "3pm",
+      "5pm",
+      "1pm"
+    ],
+    "answer": "1pm"
+  },
+  {
+    "question": "A man is describing his school. What color is the teacher's building?",
+    "options": [
+      "Green",
+      "Blue",
+      "White"
+    ],
+    "answer": "White"
+  },
+  {
+    "question": "What is the way to exercise? / What is she going to do? / What does she do on her holidays?",
+    "options": [
+      "Cycling",
+      "Running",
+      "Walking"
+    ],
+    "answer": "Walking"
+  },
+  {
+    "question": "James is talking about his family members. In what way does his mother and his aunt alike?",
+    "options": [
+      "They had similar hair styles",
+      "They had similar eye colors",
+      "They were thin"
+    ],
+    "answer": "They were thin"
+  },
+  {
+    "question": "A receptionist is checking the client list of a clinic. How many American clients are there?",
+    "options": [
+      "Two",
+      "One",
+      "Three"
+    ],
+    "answer": "One"
+  },
+  {
+    "question": "How many weeks have they been in India?",
+    "options": [
+      "2 weeks",
+      "4 weeks",
+      "3 weeks"
+    ],
+    "answer": "2 weeks"
+  },
+  {
+    "question": "Listen to Sarah talking about her hobby. What does she do in her free time?",
+    "options": [
+      "Go to the beach and swim",
+      "Go to theater and play sports",
+      "Watch TV and read books"
+    ],
+    "answer": "Go to theater and play sports"
+  },
+  {
+    "question": "Where do they go when they travel to India?",
+    "options": [
+      "Go to the mountains",
+      "Go to the park",
+      "Go to the beach"
+    ],
+    "answer": "Go to the park"
+  },
+  {
+    "question": "A tour guide is talking about the vacation list of activities. What can people do in the afternoon?",
+    "options": [
+      "Visit museums",
+      "Play golf",
+      "Go swimming"
+    ],
+    "answer": "Play golf"
+  },
+  {
+    "question": "Where does she walk every night? / Listen to Anna talking about her routine. Where does Anna go for a walk every morning?",
+    "options": [
+      "The park",
+      "The college",
+      "The beach"
+    ],
+    "answer": "The college"
+  },
+  {
+    "question": "A woman is discussing with her team. How many chairs does she need?",
+    "options": [
+      "25",
+      "15",
+      "20"
+    ],
+    "answer": "20"
+  },
+  {
+    "question": "Listen to a girl calling the cafe. Where did she ask the coffee shop to look for her lost item?",
+    "options": [
+      "On the counter",
+      "Near the door",
+      "In the corner"
+    ],
+    "answer": "In the corner"
+  },
+  {
+    "question": "Where did they meet?",
+    "options": [
+      "The back entrance",
+      "The front entrance",
+      "The side entrance"
+    ],
+    "answer": "The front entrance"
+  },
+  {
+    "question": "The daughter is calling her father. What did she buy?",
+    "options": [
+      "A dress",
+      "A pair of shoes",
+      "A blouse"
+    ],
+    "answer": "A dress"
+  },
+  {
+    "question": "Listen to a teacher talking about meeting preparations. What is the teacher preparing for the meeting now?",
+    "options": [
+      "Order the food",
+      "Print the documents",
+      "Arrange the seating"
+    ],
+    "answer": "Order the food"
+  },
+  {
+    "question": "Adam is calling his friend. When will he need the computer?",
+    "options": [
+      "Friday",
+      "Thursday",
+      "Tuesday"
+    ],
+    "answer": "Friday"
+  },
+  {
+    "question": "What country will they study next semester?",
+    "options": [
+      "Germany",
+      "Spain",
+      "France"
+    ],
+    "answer": "France"
+  },
+  {
+    "question": "What do they need to repair for the building? / A woman is talking about her house. What is she going to change in their house?",
+    "options": [
+      "The roof",
+      "The windows",
+      "The doors"
+    ],
+    "answer": "The windows"
+  },
+  {
+    "question": "Listen to an actor discussing his hobbies. What does the actor like to do in his free time?",
+    "options": [
+      "Drawing",
+      "Watching movies",
+      "Playing video games"
+    ],
+    "answer": "Drawing"
+  },
+  {
+    "question": "Listen to a principal talking about new school facilities. What new facility will the school have?",
+    "options": [
+      "A new library",
+      "A sports field",
+      "A Performance space"
+    ],
+    "answer": "A Performance space"
+  },
+  {
+    "question": "What does he advise young people to do to save money?",
+    "options": [
+      "Use public transportation",
+      "Buy second-hand items",
+      "Cook for yourself"
+    ],
+    "answer": "Cook for yourself"
+  },
+  {
+    "question": "Listening to a man talking about his business trip. What does he like in Dubai?",
+    "options": [
+      "He enjoys shopping",
+      "He enjoys his job here",
+      "He enjoys the weather"
+    ],
+    "answer": "He enjoys his job here"
+  },
+  {
+    "question": "Listen to a conversation between the teacher and a parent. What will the father do?",
+    "options": [
+      "Change schools",
+      "Arrange private classes",
+      "Enroll in after-school programs"
+    ],
+    "answer": "Arrange private classes"
+  },
+  {
+    "question": "A man is talking about his holiday. How is he going to travel to the city?",
+    "options": [
+      "By car",
+      "By bus",
+      "By train"
+    ],
+    "answer": "By bus"
+  },
+  {
+    "question": "Lily is talking about her daily routine. What does she do in the evening?",
+    "options": [
+      "Does yoga",
+      "Goes for a walk",
+      "Watches TV"
+    ],
+    "answer": "Goes for a walk"
+  },
+  {
+    "question": "An expert is talking about lack of satisfaction at work. What should be the solution?",
+    "options": [
+      "Request a transfer",
+      "Take a vacation",
+      "Find a new job"
+    ],
+    "answer": "Request a transfer"
+  },
+  {
+    "question": "The woman is calling a friend about meeting for dinner. How long does it take to get to the station?",
+    "options": [
+      "40 minutes",
+      "20 minutes",
+      "60 minutes"
+    ],
+    "answer": "40 minutes"
+  },
+  {
+    "question": "Listen to a woman asking about a flight. How much does the flight in the morning cost?",
+    "options": [
+      "250 pounds",
+      "350 pounds",
+      "500 pounds"
+    ],
+    "answer": "350 pounds"
+  },
+  {
+    "question": "Listen to a friend talking about selling her music player. How much did she sell it for?",
+    "options": [
+      "30 dollars",
+      "50 dollars",
+      "70 dollars"
+    ],
+    "answer": "50 dollars"
+  },
+  {
+    "question": "Listen to a woman explaining why she was late. What is the main reason she gets late?",
+    "options": [
+      "Car broke down",
+      "Heavy traffic",
+      "Missed the train"
+    ],
+    "answer": "Missed the train"
+  },
+  {
+    "question": "A man is talking about his routine after work. What is the man going to do after work?",
+    "options": [
+      "Goes running",
+      "Cooks dinner",
+      "Watches TV"
+    ],
+    "answer": "Goes running"
+  },
+  {
+    "question": "Tom is calling his friend. What time will they meet?",
+    "options": [
+      "6 PM",
+      "7 PM",
+      "8 PM"
+    ],
+    "answer": "7 PM"
+  },
+  {
+    "question": "A finance expert is giving advice to young people. What shouldn't they do?",
+    "options": [
+      "Ask for more money",
+      "Invest in stocks",
+      "Buy expensive cars"
+    ],
+    "answer": "Ask for more money"
+  },
+  {
+    "question": "A girl is talking about a show she will attend. What will it end with?",
+    "options": [
+      "A surprise performance",
+      "A speech",
+      "A firework display"
+    ],
+    "answer": "A surprise performance"
+  },
+  {
+    "question": "Listen to an auction man talking about a cabinet. Which part of the cabinet is original?",
+    "options": [
+      "The legs",
+      "The drawer",
+      "The top"
+    ],
+    "answer": "The drawer"
+  },
+  {
+    "question": "A woman tells her friend about her plans for the day. What is the woman going to do?",
+    "options": [
+      "Go shopping",
+      "Visit the library",
+      "Have coffee"
+    ],
+    "answer": "Have coffee"
+  },
+  {
+    "question": "Linda is talking about her mother. What do mother and daughter have in common?",
+    "options": [
+      "Same fashion sense",
+      "Same music taste",
+      "Similar interests"
+    ],
+    "answer": "Similar interests"
+  },
+  {
+    "question": "Listen to the speaker talking on the radio. What is she talking about?",
+    "options": [
+      "Her holiday trip",
+      "Her new car",
+      "Her journey to work"
+    ],
+    "answer": "Her journey to work"
+  },
+  {
+    "question": "Listen to the conversation about the directions. Where is the library located?",
+    "options": [
+      "Opposite the park",
+      "Next to the bank",
+      "On the left of the square"
+    ],
+    "answer": "On the left of the square"
+  },
+  {
+    "question": "Listen to a woman giving advice on saving money. What advice does she give to save money?",
+    "options": [
+      "Stop eating out",
+      "Use the public transport",
+      "Sell old clothes"
+    ],
+    "answer": "Use the public transport"
+  },
+  {
+    "question": "Lalia is talking to her friend about her upcoming trip. How much does she think the bus fare will be?",
+    "options": [
+      "£2.5",
+      "£1.5",
+      "£5.0"
+    ],
+    "answer": "£2.5"
+  },
+  {
+    "question": "A woman is chatting with a friend about her afternoon plans. What is she going to do this afternoon?",
+    "options": [
+      "Sleep at home",
+      "Go to the cinema",
+      "Go on a city tour"
+    ],
+    "answer": "Go on a city tour"
+  },
+  {
+    "question": "Louis is calling his friend Standar. Where will Luis meet Standar?",
+    "options": [
+      "Inside the train",
+      "Outside the station",
+      "At the bus stop"
+    ],
+    "answer": "Outside the station"
+  },
+  {
+    "question": "Jane is calling her friend Martha. What time are they going to meet?",
+    "options": [
+      "4.30",
+      "5.30",
+      "6.30"
+    ],
+    "answer": "5.30"
+  },
+  {
+    "question": "A man is talking about his job. Where is he working now?",
+    "options": [
+      "In a hospital",
+      "In a school",
+      "In a bank"
+    ],
+    "answer": "In a bank"
+  },
+  {
+    "question": "The man is talking about his key. Where did he find the key?",
+    "options": [
+      "In the front door",
+      "In the kitchen",
+      "Under the car seat"
+    ],
+    "answer": "In the front door"
+  },
+  {
+    "question": "A man is calling his mother. How long will he be late?",
+    "options": [
+      "30 minutes",
+      "5 minutes",
+      "10 minutes"
+    ],
+    "answer": "10 minutes"
+  },
+  {
+    "question": "A woman is going to the cinema with her husband. What time does the movie begin?",
+    "options": [
+      "6:00",
+      "6:40",
+      "7:15"
+    ],
+    "answer": "6:40"
+  },
+  {
+    "question": "A man is calling his friend. Where will they meet?",
+    "options": [
+      "At the library",
+      "At the mall",
+      "By the park"
+    ],
+    "answer": "By the park"
+  },
+  {
+    "question": "Dan is going to university. Where should Dan turn right?",
+    "options": [
+      "At the school",
+      "At the bakery",
+      "At the traffic lights"
+    ],
+    "answer": "At the traffic lights"
+  },
+  {
+    "question": "A saleswoman is talking to her customer. How much is the cheapest computer in the shop?",
+    "options": [
+      "120 pounds",
+      "135 pounds",
+      "160 pounds"
+    ],
+    "answer": "135 pounds"
+  },
+  {
+    "question": "A tour guide is introducing a famous building. What is this building currently used for?",
+    "options": [
+      "A hotel",
+      "A post office",
+      "A department store"
+    ],
+    "answer": "A department store"
+  },
+  {
+    "question": "David is in an interview. What was his last job?",
+    "options": [
+      "A driver",
+      "An electrician",
+      "A mechanic"
+    ],
+    "answer": "An electrician"
+  },
+  {
+    "question": "A man is talking to his friend. Why does he choose to be a doctor?",
+    "options": [
+      "To be famous",
+      "To travel the world",
+      "To help people"
+    ],
+    "answer": "To help people"
+  },
+  {
+    "question": "A woman is talking to the police. What did she lose?",
+    "options": [
+      "A phone",
+      "A ring",
+      "A bag"
+    ],
+    "answer": "A bag"
+  },
+  {
+    "question": "Tom is talking with his friend about his teachers. What is his favourite teacher?",
+    "options": [
+      "Mr. White",
+      "Miss Brown",
+      "Mrs. Green"
+    ],
+    "answer": "Miss Brown"
+  },
+  {
+    "question": "A woman is talking to a shop assistant. Why does the woman return the dress?",
+    "options": [
+      "It is torn",
+      "Wrong style",
+      "Because of its size"
+    ],
+    "answer": "Because of its size"
+  },
+  {
+    "question": "Louis is having dinner in a new restaurant. What is his opinion about that restaurant?",
+    "options": [
+      "The food is cold",
+      "It is too noisy",
+      "The service is slow"
+    ],
+    "answer": "The service is slow"
+  },
+  {
+    "question": "A teacher is talking to her students. Where are the students now?",
+    "options": [
+      "At the zoo",
+      "In a townhouse",
+      "In a library"
+    ],
+    "answer": "In a townhouse"
+  },
+  {
+    "question": "A man is calling his friend. Where is he?",
+    "options": [
+      "The town hall",
+      "The bank",
+      "The bus station"
+    ],
+    "answer": "The town hall"
+  }
+]

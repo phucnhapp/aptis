@@ -1,0 +1,494 @@
+[
+  {
+    "question": "Topic: Changes in the workplace\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. Continuity is important when planning a career",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      },
+      {
+        "text": "2. Job security cannot be guaranteed",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "3. Job satisfaction is important for motivator",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "4. Technological improvement is good for the economy",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Beauty\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. People share the very similar ideas about beauty",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      },
+      {
+        "text": "2. Views of beauty change over time",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "3.  Beauty can be found in unlikely places",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "4. Traditional ideas of beauty are going to change",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Actors (câu này nhiều phiên bản nên cứ chọn MWBB - Mẹ Win bừa bộn)\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. Auditions are the most important of casting",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      },
+      {
+        "text": "2. Actors respond best to a strong script",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "3. Theatre acting and movie acting require different skills",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "4. Actors need to be praised",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Information and technology\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. The future generation will fail to cope with new information",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      },
+      {
+        "text": "2. The information revolution will be good for the economy",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "3. No computer is superior to the human brain",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "4. More should be done to protect individual privacy",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      }
+    ]
+  },
+  {
+    "question": "Topic: The Internet (câu này nhiều phiên bản nên cứ chọn BWBB - Bố Win bừa bộn)\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. There is too much information on the internet",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "2. Using internet requires skills",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "3. The internet is changing the way we think",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "4. Internet has made people less patient",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      }
+    ]
+  },
+  {
+    "question": "Topic: The arts\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. Art is only suitable for the privileged few",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "2. The government should invest more in arts",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      },
+      {
+        "text": "3. Children should be exposed to art early",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "4. In the future, art will become more accessible",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      }
+    ]
+  },
+  {
+    "question": "Topic: The music\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. Singers play a good role for young people",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      },
+      {
+        "text": "2. Taste in music is a highly personal thing",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "3. Music is a universal language",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "4. Music can manipulate people's feelings",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      }
+    ]
+  },
+  {
+    "question": "Topic: University and technology\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. Technology helps make education more accessible",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "2. Social interaction is important",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "3. The diverse curriculum is not an advantage",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      },
+      {
+        "text": "4. University competition should be encouraged",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      }
+    ]
+  },
+  {
+    "question": "Topic: The politics\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. Young people are becoming more interested in politics",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "2. Social media has changed political activism",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      },
+      {
+        "text": "3. People are better informed political issues",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "4. More women are likely to participate in politics",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Urban farming\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. Living space is more important than farming space",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "2. Urban farming sites can be visually appealing",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "3. Urban farming can benefit local economics",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      },
+      {
+        "text": "4. Urban farming cannot meet food needs",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Local festivals\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. Exhibitions should be different and diverse",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      },
+      {
+        "text": "2. Traditional customs are gradually losing their significance",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "3. Local festivals will disappear soon in the near future",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "4. Schools are important to shaping future generations",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      }
+    ]
+  },
+  {
+    "question": "Topic: Community design\nListen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
+    "sentences": [
+      {
+        "text": "1. Building design can influence people's behavior.",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      },
+      {
+        "text": "2. Creating community can take time",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Woman"
+      },
+      {
+        "text": "3. Work communities and social communities are the same.",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Man"
+      },
+      {
+        "text": "4. Technology has changed how community forms.",
+        "options": [
+          "Man",
+          "Woman",
+          "Both"
+        ],
+        "answer": "Both"
+      }
+    ]
+  }
+]
