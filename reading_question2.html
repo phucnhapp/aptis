@@ -19,9 +19,11 @@
         <p class="text-muted" id="desc"></p>
         <div id="drag-container" class="drag-box mb-4"></div>
         <div id="result-area"></div>
-        <button class="btn btn-primary" onclick="checkOrder()">Kiểm tra thứ tự</button>
-        <button class="btn btn-secondary" onclick="location.reload()">Đổi bài</button>
-        <a href="index.html" class="btn btn-info">Trang chủ</a>
+
+        <button class="btn btn-primary" style="width: 100%" onclick="checkOrder()">Kiểm tra thứ tự</button><br>
+        <button class="btn btn-success mt-2" style="width: 100%" onclick="showCorrectOrder()">Xem kết quả</button><br>
+        <button class="btn btn-secondary mt-2" style="width: 100%" onclick="location.reload()">Đổi bài</button><br><br>
+        <a href="index.html" style="width: 100%" class="btn btn-info">Trang chủ</a>
     </div>
 
     <script>
@@ -31,17 +33,18 @@
         fetch(files[Math.floor(Math.random()*files.length)])
             .then(res => res.json())
             .then(data => {
-                const item = data[Math.floor(Math.random()*data.length)];
-                document.getElementById('topic-title').innerText = item.question;
-                if(item.options && item.options[0].includes("Paragraph")) {
-                   document.getElementById('desc').innerText = item.options[0];
-                }
+                const randomIndex = Math.floor(Math.random()*data.length);
+                const item = data[randomIndex];
+                
+                // Hiển thị thứ tự câu hỏi
+                document.getElementById('topic-title').innerText = `(${randomIndex + 1}/${data.length}) ${item.question}`;
+                
                 correctOrder = item.answer;
-                render(item.answer);
+                render(item.options);
             });
 
-        function render(ans) {
-            let shuffled = [...ans].sort(() => Math.random() - 0.5);
+        function render(options) {
+            let shuffled = [...options].sort(() => Math.random() - 0.5);
             const container = document.getElementById('drag-container');
             container.innerHTML = shuffled.map(text => `
                 <div class="drag-item" data-val="${text}">${text}</div>
@@ -51,9 +54,9 @@
 
         function checkOrder() {
             const items = Array.from(document.querySelectorAll('.drag-item'));
-            const userOrder = items.map(i => i.dataset.val);
-            const resultArea = document.getElementById('result-area');
-            
+            // Xóa các thông báo lỗi cũ
+            document.querySelectorAll('.wrong-idx').forEach(el => el.remove());
+
             let isAllCorrect = true;
             items.forEach((item, idx) => {
                 if (item.dataset.val === correctOrder[idx]) {
@@ -64,9 +67,21 @@
                     item.innerHTML += `<span class="wrong-idx">Đúng ra phải là vị trí số ${correctOrder.indexOf(item.dataset.val) + 1}</span>`;
                 }
             });
+        }
 
-            if (isAllCorrect) resultArea.innerHTML = "<div class='alert alert-success'>Tuyệt vời! Bạn đã sắp xếp đúng 100%.</div>";
-            else resultArea.innerHTML = "<div class='alert alert-warning'>Một số câu chưa đúng vị trí. Hãy xem gợi ý nhỏ ở mỗi thẻ.</div>";
+        // Hàm tự động sắp xếp lại theo kết quả đúng
+        function showCorrectOrder() {
+            const container = document.getElementById('drag-container');
+            // Xây dựng lại danh sách dựa trên mảng correctOrder
+            container.innerHTML = correctOrder.map(text => `
+                <div class="drag-item correct-item" data-val="${text}">${text}</div>
+            `).join('');
+            
+            // Xóa các thông báo lỗi nếu có
+            document.querySelectorAll('.wrong-idx').forEach(el => el.remove());
+            
+            // Khởi tạo lại Sortable để người dùng vẫn có thể kéo thả nếu muốn
+            new Sortable(container, { animation: 150 });
         }
     </script>
 </body>

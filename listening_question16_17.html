@@ -16,28 +16,34 @@
     <div class="container-quiz shadow">
         <h4 id="main-topic" class="text-primary"></h4>
         <div id="questions-list"></div>
-        <button class="btn btn-success mt-4" onclick="checkAll()">Kiểm tra tất cả</button>
-        <button class="btn btn-outline-primary mt-4" onclick="location.reload()">Làm bài khác</button>
-        <a href="index.html" class="btn btn-info">Trang chủ</a>
+        <div style="position: z; bottom:0; left:0; width:100%; background:#fff; padding:10px 0; text-align:center;">
+            <button class="btn btn-success mt-4" style="width:100%;" onclick="checkAll()">Kiểm tra tất cả</button><br>
+            <button class="btn btn-outline-primary mt-4" style="width:100%;" onclick="location.reload()">Làm bài khác</button><br><br>
+            <a href="index.html" style="width:100%;" class="btn btn-info">Trang chủ</a>
+        </div>
     </div>
 
     <script>
-        const files = ['listening_question16_17.json'];
+        // Thay đổi tên file JSON tại đây cho từng trang tương ứng
+        const files = ['listening_question16_17.json']; 
         let activeData = [];
 
-        // Lấy ngẫu nhiên 1 trong các file hỗ trợ cấu trúc này
         fetch(files[Math.floor(Math.random()*files.length)])
             .then(res => res.json())
             .then(data => {
-                const group = data[Math.floor(Math.random()*data.length)];
-                document.getElementById('main-topic').innerText = group.question;
+                const randomIndex = Math.floor(Math.random()*data.length);
+                const group = data[randomIndex];
+                
+                // Bổ sung (Câu hiện tại/Tổng số câu)
+                document.getElementById('main-topic').innerText = `(${randomIndex + 1}/${data.length}) ${group.question}`;
+                
                 render(group.sentences);
             });
 
         function render(sentences) {
             const list = document.getElementById('questions-list');
             list.innerHTML = sentences.map((s, i) => `
-                <div class="q-row">
+                <div class="q-rosw">
                     <p class="mb-2">${s.text.replace('[___]', '______')}</p>
                     <div class="d-flex align-items-center">
                         <select class="form-select w-50 user-ans" data-correct="${s.answer}">
