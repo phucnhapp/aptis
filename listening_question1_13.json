@@ -76,9 +76,9 @@
     "options": [
       "Six o’clock",
       "Two o’clock",
-      "Three o'clock"
+      "Three o’clock"
     ],
-    "answer": "Three o'clock"
+    "answer": "Three o’clock"
   },
   {
     "question": "Jack is calling to invite a friend to his house. What color is Jack’s house??",
@@ -623,11 +623,11 @@
   {
     "question": "A man is talking about his eating habit. What time does he usually eat?",
     "options": [
-      "8 o'clock",
-      "7 o'clock",
-      "5 o'clock"
+      "8 o clock",
+      "7 o clock",
+      "5 o clock"
     ],
-    "answer": "7 o'clock"
+    "answer": "7 o clock"
   },
   {
     "question": "A professor is talking to his student. What does the professor ask his student to do?",
@@ -1182,6 +1182,15 @@
     "question": "A woman is discussing with her team. How many chairs does she need?",
     "options": [
       "25",
+      "15",
+      "20"
+    ],
+    "answer": "20"
+  },
+  {
+    "question": "How many chairs does the girl prepare for the meeting",
+    "options": [
+      "18",
       "15",
       "20"
     ],

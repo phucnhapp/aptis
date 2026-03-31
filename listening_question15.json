@@ -1,6 +1,6 @@
 [
   {
-    "question": "Topic: Changes in the workplace\n",
+    "question": "Topic: Changes in the workplace (Mẹ Will Bảo Muốn đổi việc)\n",
     "sentences": [
       {
         "text": "1. Continuity is important when planning a career",
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "question": "Topic: Beauty\n",
+    "question": "Topic: Beauty (Will Muốn Bố Mẹ đẹp)\n",
     "sentences": [
       {
         "text": "1. People share the very similar ideas about beauty",
@@ -50,7 +50,7 @@
           "Woman",
           "Both"
         ],
-        "answer": "Man"
+        "answer": "Woman"
       },
       {
         "text": "2. Views of beauty change over time",
@@ -59,7 +59,7 @@
           "Woman",
           "Both"
         ],
-        "answer": "Woman"
+        "answer": "Man"
       },
       {
         "text": "3.  Beauty can be found in unlikely places",
@@ -77,12 +77,12 @@
           "Woman",
           "Both"
         ],
-        "answer": "Woman"
+        "answer": "Man"
       }
     ]
   },
   {
-    "question": "Topic: Actors (câu này nhiều phiên bản nên cứ chọn MWBB - Mẹ Win bừa bộn)\n",
+    "question": "Topic: Actors/Audition (Mẹ Win Bừa Bộn Audition)\n",
     "sentences": [
       {
         "text": "1. Auditions are the most important of casting",
@@ -123,7 +123,7 @@
     ]
   },
   {
-    "question": "Topic: Information and technology\n",
+    "question": "Topic: Information and technology (Mẹ Bắt Will Bỏ học công nghệ)\n",
     "sentences": [
       {
         "text": "1. The future generation will fail to cope with new information",
@@ -164,7 +164,7 @@
     ]
   },
   {
-    "question": "Topic: The Internet (câu này nhiều phiên bản nên cứ chọn BWBB - Bố Win bừa bộn)\n",
+    "question": "Topic: The Internet (Bố Win bừa bộn / BMMB)\n",
     "sentences": [
       {
         "text": "1. There is too much information on the internet",
@@ -182,7 +182,7 @@
           "Woman",
           "Both"
         ],
-        "answer": "Woman"
+        "answer": "Man"
       },
       {
         "text": "3. The internet is changing the way we think",
@@ -191,7 +191,7 @@
           "Woman",
           "Both"
         ],
-        "answer": "Both"
+        "answer": "Man"
       },
       {
         "text": "4. Internet has made people less patient",
@@ -205,7 +205,7 @@
     ]
   },
   {
-    "question": "Topic: The arts\n",
+    "question": "Topic: The arts (Will Muốn Bố Mẹ học nghệ thuật)\n",
     "sentences": [
       {
         "text": "1. Art is only suitable for the privileged few",
@@ -246,7 +246,7 @@
     ]
   },
   {
-    "question": "Topic: The music\n",
+    "question": "Topic: The music (Will Biết Mẹ Bận làm ca sĩ)\n",
     "sentences": [
       {
         "text": "1. Singers play a good role for young people",
@@ -255,7 +255,7 @@
           "Woman",
           "Both"
         ],
-        "answer": "Man"
+        "answer": "Woman"
       },
       {
         "text": "2. Taste in music is a highly personal thing",
@@ -273,7 +273,7 @@
           "Woman",
           "Both"
         ],
-        "answer": "Woman"
+        "answer": "Man"
       },
       {
         "text": "4. Music can manipulate people's feelings",
@@ -287,7 +287,7 @@
     ]
   },
   {
-    "question": "Topic: University and technology\n",
+    "question": "Topic: University and technology (Bố Will Mắng Will vì trượt đại học)\n",
     "sentences": [
       {
         "text": "1. Technology helps make education more accessible",
@@ -328,7 +328,7 @@
     ]
   },
   {
-    "question": "Topic: The politics\n",
+    "question": "Topic: The politics (Bố Mẹ Will bắt học chính trị)\n",
     "sentences": [
       {
         "text": "1. Young people are becoming more interested in politics",
@@ -369,7 +369,7 @@
     ]
   },
   {
-    "question": "Topic: Urban farming\n",
+    "question": "Topic: Urban farming (Will Muốn Mẹ Bỏ làm nông)\n",
     "sentences": [
       {
         "text": "1. Living space is more important than farming space",
@@ -387,7 +387,7 @@
           "Woman",
           "Both"
         ],
-        "answer": "Both"
+        "answer": "Man"
       },
       {
         "text": "3. Urban farming can benefit local economics",
@@ -410,7 +410,7 @@
     ]
   },
   {
-    "question": "Topic: Local festivals\n",
+    "question": "Topic: Local festivals / Local cultural center (Will Bảo Mẹ Mang văn hóa)\n",
     "sentences": [
       {
         "text": "1. Exhibitions should be different and diverse",
@@ -419,7 +419,7 @@
           "Woman",
           "Both"
         ],
-        "answer": "Man"
+        "answer": "Woman"
       },
       {
         "text": "2. Traditional customs are gradually losing their significance",
@@ -437,7 +437,7 @@
           "Woman",
           "Both"
         ],
-        "answer": "Woman"
+        "answer": "Man"
       },
       {
         "text": "4. Schools are important to shaping future generations",
@@ -446,12 +446,12 @@
           "Woman",
           "Both"
         ],
-        "answer": "Woman"
+        "answer": "Man"
       }
     ]
   },
   {
-    "question": "Topic: Community design\n",
+    "question": "Topic: Community design (Bố Will Muốn Bố xây cộng đồng)\n",
     "sentences": [
       {
         "text": "1. Building design can influence people's behavior.",

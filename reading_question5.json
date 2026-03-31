@@ -2,25 +2,25 @@
   {
     "question": "TOPIC: Mountain",
     "answer": [
-      "Changing the definition of mountain",
-      "The unique feeling of achievement",
-      "Publicity of achievement",
-      "The mistake of misplaced priorities",
-      "Worrying connections",
-      "Focus on stability",
-      "Intimate relationships"
+      "<b>Changing</b> the definition of mountain",
+      "The unique <b>sense/feeling</b> of achievement",
+      "<b>Publicity</b> of achievement",
+      "The <b>mistake/wrong</b> of misplaced priorities",
+      "Worrying <b>connections</b>",
+      "<b>Focus</b> on stability",
+      "Intimate <b>relationships</b>"
     ]
   },
   {
     "question": "TOPIC: Four-Day Workweek",
     "answer": [
-      "A way of life now out date",
-      "Benefits for employees",
-      "Undesirable finalcial consequences",
-      "Unforeseen challenges for employees",
-      "Difficult to change old habits",
-      "Unfair for some people",
-      "Alternative solutions worth considering"
+      "A <b>way of life</b> now out date",
+      "<b>Benefits</b> for employees",
+      "Undesirable <b>financial</b> consequences",
+      "Unforeseen <b>challenges</b> for employees",
+      "Difficult to change <b>old</b> habits",
+      "Unfair for some <b>people</b>",
+      "Alternative <b>solutions</b> worth considering"
     ]
   },
   {
@@ -110,25 +110,25 @@
   {
     "question": "TOPIC: Women mathematicians (phiên bản 2)",
     "answer": [
-      "Achievements obscured by gender",
-      "Recognizing the accomplishments of pioneering women",
-      "Men are unfairly given credit",
-      "A long career demonstrates exceptional ability",
-      "The labels can change perceptions",
-      "Striving to create gender balance",
-      "Uniformity can be a disadvantage"
+      "Achievements <b>obscured</b> by gender",
+      "Recognizing the accomplishments of <b>pioneering</b> women",
+      "Men are unfairly given <b>credit</b>",
+      "A <b>long</b> career demonstrates exceptional ability",
+      "The labels can change perceptions on <b>people</b>",
+      "Striving to create gender <b>balance</b>",
+      "<b>Uniformity</b> can be a disadvantage"
     ]
   },
   {
     "question": "TOPIC: Mountain (phiên bản 2)",
     "answer": [
-      "Changing the definition of mountain",
-      "The unique feeling of achievement",
-      "Publicity of achievement",
-      "The wrong priority",
-      "A disturbing relevant",
-      "Focus on sustainability",
-      "A more intimate relationship"
+      "<b>Changing</b> the definition of mountain",
+      "The unique <b>sense/feeling</b> of achievement",
+      "<b>Publicity</b> of achievement",
+      "The <b>wrong</b> priority",
+      "A disturbing <b>relevant </b>",
+      "<b>Focus</b> on sustainability",
+      "A more intimate <b>relationship</b>"
     ]
   }
 ]

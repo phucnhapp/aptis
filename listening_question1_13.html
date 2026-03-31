@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aptis Practice - Auto Check</title>
+    <title>Aptis Practice - Smart Learning</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body { background: #f8f9fa; padding: 20px; padding-bottom: 80px; }
@@ -62,17 +62,44 @@
 
         .jump-container { display: flex; align-items: center; gap: 5px; }
         #jump-input { width: 65px; text-align: center; font-weight: bold; }
+        
+        /* Nhãn Đã sai đỏ nhỏ */
+        .badge-wrong {
+            background-color: #dc3545;
+            color: white;
+            font-size: 0.75rem;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+
+        /* Dòng thông báo số lượng câu sai */
+        #error-summary {
+            font-size: 0.9rem;
+            color: #dc3545;
+            font-weight: bold;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="card">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <h3 id="topic" class="m-0">Aptis Listening</h3>
+        <div class="d-flex justify-content-between align-items-center mb-1">
+            <div>
+                <h3 id="topic" class="m-0 d-inline-block">Aptis Listening 
+                    <span id="status-area"></span>
+                    <span id="error-summary" class="mb-3"></span>
+                </h3>
+                
+            </div>
             <div class="jump-container">
                 <input type="number" id="jump-input" class="form-control form-control-sm" min="1" onchange="jumpToQuestion()">
                 <span id="question-total" class="badge bg-secondary p-2"></span>
             </div>
         </div>
+        
+        
         
         <div id="question-text"></div>
         <div id="options-container"></div>
@@ -83,7 +110,7 @@
             <button class="btn btn-success w-100 py-2 fw-bold" id="btn-show-answer" onclick="showCorrectAnswer()">
                 Hiện đáp án ✅
             </button>
-            <button class="btn btn-warning w-100" onclick="randomQuestion()">Câu ngẫu nhiên 🎲</button>
+            <button class="btn btn-warning w-100 fw-bold" onclick="randomQuestion()">Câu ngẫu nhiên (Ưu tiên câu sai) 🎲</button>
         </div>
         
         <div class="row g-2 mb-3">
@@ -101,16 +128,18 @@
     <script>
         let questions = [];
         let currentIdx = 0;
+        let incorrectQuestions = []; // Danh sách ưu tiên để random (sẽ xóa khi chọn đúng lại)
+        let hasBeenWrong = []; // Danh sách để đánh dấu "Đã sai" (không xóa)
 
         fetch('listening_question1_13.json')
             .then(res => res.json())
             .then(data => {
                 questions = data;
+                hasBeenWrong = new Array(questions.length).fill(false);
                 render();
             })
             .catch(err => console.error("Lỗi tải file JSON:", err));
 
-        // Thuật toán trộn mảng Fisher-Yates
         function shuffleArray(array) {
             let shuffled = [...array];
             for (let i = shuffled.length - 1; i > 0; i--) {
@@ -120,23 +149,37 @@
             return shuffled;
         }
 
+        function updateErrorSummary() {
+            const summary = document.getElementById('error-summary');
+            if (incorrectQuestions.length > 0) {
+                summary.innerText = `⚠️ Có ${incorrectQuestions.length} câu làm sai cần ôn tập lại.`;
+            } else {
+                summary.innerText = "";
+            }
+        }
+
         function render() {
             if (questions.length === 0) return;
             
             const q = questions[currentIdx];
             const jumpInput = document.getElementById('jump-input');
+            const statusArea = document.getElementById('status-area');
             
             jumpInput.value = currentIdx + 1;
             jumpInput.max = questions.length;
             document.getElementById('question-total').innerText = `/ ${questions.length}`;
             document.getElementById('question-text').innerText = q.question;
             
+            // Cập nhật nhãn "Đã sai"
+            statusArea.innerHTML = hasBeenWrong[currentIdx] ? `<span class="badge-wrong">Đã sai</span>` : "";
+            
+            // Cập nhật tổng số câu sai
+            updateErrorSummary();
+
             document.getElementById('btn-prev').disabled = (currentIdx === 0);
             document.getElementById('btn-next').disabled = (currentIdx === questions.length - 1);
 
-            // Trộn danh sách đáp án trước khi hiển thị
             const shuffledOptions = shuffleArray(q.options);
-
             const container = document.getElementById('options-container');
             container.innerHTML = shuffledOptions.map((opt, i) => `
                 <div class="option-item" onclick="handleAutoCheck(this, '${opt}')">
@@ -153,6 +196,8 @@
             const allOptions = document.querySelectorAll('.option-item');
             element.querySelector('input').checked = true;
 
+            let isCorrect = (selectedValue === q.answer);
+
             allOptions.forEach(item => {
                 const val = item.querySelector('input').value;
                 item.classList.add('answered');
@@ -162,12 +207,46 @@
                     item.classList.add('incorrect');
                 }
             });
+
+            if (isCorrect) {
+                // Nếu chọn đúng, xóa khỏi danh sách ưu tiên random
+                incorrectQuestions = incorrectQuestions.filter(idx => idx !== currentIdx);
+            } else {
+                // Nếu chọn sai, đánh dấu "Đã sai" và thêm vào danh sách ưu tiên
+                hasBeenWrong[currentIdx] = true;
+                if (!incorrectQuestions.includes(currentIdx)) {
+                    incorrectQuestions.push(currentIdx);
+                }
+                document.getElementById('status-area').innerHTML = `<span class="badge-wrong">Đã sai</span>`;
+            }
+            updateErrorSummary();
+        }
+
+        function randomQuestion() {
+            if (questions.length <= 1) return;
+
+            let nextIdx;
+            const shouldPickIncorrect = incorrectQuestions.length > 0 && Math.random() < 0.3;
+
+            if (shouldPickIncorrect) {
+                const randPos = Math.floor(Math.random() * incorrectQuestions.length);
+                nextIdx = incorrectQuestions[randPos];
+                if (nextIdx === currentIdx && incorrectQuestions.length > 1) {
+                    nextIdx = incorrectQuestions[(randPos + 1) % incorrectQuestions.length];
+                }
+            } else {
+                do {
+                    nextIdx = Math.floor(Math.random() * questions.length);
+                } while (nextIdx === currentIdx);
+            }
+
+            currentIdx = nextIdx;
+            render();
         }
 
         function showCorrectAnswer() {
             const q = questions[currentIdx];
             const allOptions = document.querySelectorAll('.option-item');
-
             allOptions.forEach(item => {
                 const val = item.querySelector('input').value;
                 item.classList.add('answered');
@@ -198,15 +277,6 @@
             if (isNaN(val) || val < 1) val = 1;
             if (val > questions.length) val = questions.length;
             currentIdx = val - 1;
-            render();
-        }
-
-        function randomQuestion() {
-            let newIdx;
-            do {
-                newIdx = Math.floor(Math.random() * questions.length);
-            } while (newIdx === currentIdx && questions.length > 1);
-            currentIdx = newIdx;
             render();
         }
     </script>
