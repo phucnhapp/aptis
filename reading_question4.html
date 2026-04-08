@@ -22,7 +22,7 @@
             line-height: 1.6;
             overflow: hidden;
             display: -webkit-box;
-            -webkit-line-clamp: 3;
+            -webkit-line-clamp: 1;
             -webkit-box-orient: vertical;
             white-space: pre-line;
         }
@@ -126,7 +126,7 @@
 
             const list = document.getElementById('questions-list');
             list.innerHTML = item.sentences.map((s, idx) => `
-                <div class="q-row" id="row-${idx}">
+                <div class="q-rows" id="row-${idx}">
                     <div class="q-text"><strong>${idx+1}.</strong> ${s.text}</div>
                     <div class="options-group">
                         ${s.options.map(o => `<div class="opt-btn" onclick="check(this, '${o}', '${s.answer}')">${o}</div>`).join('')}
