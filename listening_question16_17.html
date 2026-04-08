@@ -5,52 +5,84 @@
     <title>Aptis Practice - Dropdown</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background: #f4f7f6; padding: 20px; }
+        body { background: #f4f7f6; padding: 20px; padding-bottom: 50px; }
         .container-quiz { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 12px; }
         .q-row { margin-bottom: 20px; padding: 15px; border-bottom: 1px solid #eee; }
         .correct-sel { border: 2px solid #28a745; background-color: #d4edda; }
         .wrong-sel { border: 2px solid #dc3545; background-color: #f8d7da; }
+        .feedback-text { font-size: 0.95rem; }
     </style>
 </head>
 <body>
     <div class="container-quiz shadow">
-        <h4 id="main-topic" class="text-primary"></h4>
+        <h4 id="main-topic" class="text-primary mb-4"></h4>
+        
         <div id="questions-list"></div>
-        <div style="position: z; bottom:0; left:0; width:100%; background:#fff; padding:10px 0; text-align:center;">
-            <button class="btn btn-success mt-4" style="width:100%;" onclick="checkAll()">Kiểm tra tất cả</button><br>
-            <button class="btn btn-outline-primary mt-4" style="width:100%;" onclick="location.reload()">Làm bài khác</button><br><br>
-            <a href="index.html" style="width:100%;" class="btn btn-info">Trang chủ</a>
+        
+        <div class="mt-4">
+            <div class="row g-2 mb-3">
+                <div class="col-6">
+                    <button class="btn btn-outline-primary w-100 fw-bold" id="btn-prev" onclick="prevQuestion()">⬅ Câu trước</button>
+                </div>
+                <div class="col-6">
+                    <button class="btn btn-primary w-100 fw-bold" id="btn-next" onclick="nextQuestion()">Câu tiếp ➡</button>
+                </div>
+            </div>
+
+            <button class="btn btn-success w-100 mb-2 py-2 fw-bold" onclick="checkAll()">Kiểm tra tất cả ✅</button>
+            <button class="btn btn-warning w-100 mb-4 fw-bold" onclick="randomQuestion()">Làm bài khác (Ngẫu nhiên) 🎲</button>
+            
+            <a href="index.html" class="btn btn-light border w-100">Quay lại Trang chủ</a>
         </div>
     </div>
 
     <script>
-        // Thay đổi tên file JSON tại đây cho từng trang tương ứng
         const files = ['listening_question16_17.json']; 
-        let activeData = [];
+        let allData = [];
+        let currentIdx = 0;
 
-        fetch(files[Math.floor(Math.random()*files.length)])
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        fetch(files[0])
             .then(res => res.json())
             .then(data => {
-                const randomIndex = Math.floor(Math.random()*data.length);
-                const group = data[randomIndex];
-                
-                // Bổ sung (Câu hiện tại/Tổng số câu)
-                document.getElementById('main-topic').innerText = `(${randomIndex + 1}/${data.length}) ${group.question}`;
-                
-                render(group.sentences);
-            });
+                allData = data;
+                shuffleArray(allData); 
+                currentIdx = 0;
+                loadQuestion();
+            })
+            .catch(err => console.error("Lỗi tải dữ liệu: ", err));
+
+        function loadQuestion() {
+            if (allData.length === 0) return;
+            
+            const group = allData[currentIdx];
+            document.getElementById('main-topic').innerText = `(${currentIdx + 1}/${allData.length}) ${group.question}`;
+            render(group.sentences);
+
+            document.getElementById('btn-prev').disabled = (currentIdx === 0);
+            document.getElementById('btn-next').disabled = (currentIdx === allData.length - 1);
+            window.scrollTo(0, 0);
+        }
 
         function render(sentences) {
             const list = document.getElementById('questions-list');
             list.innerHTML = sentences.map((s, i) => `
-                <div class="q-rosw">
-                    <p class="mb-2">${s.text.replace('[___]', '______')}</p>
-                    <div class="d-flex align-items-center">
-                        <select class="form-select w-50 user-ans" data-correct="${s.answer}">
+                <div class="q-row">
+                    <p class="mb-3 fw-bold">${s.text.replace('[___]', '______')}</p>
+                    
+                    <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center">
+                        <select class="form-select user-ans w-100" style="max-width: 400px;" data-correct="${s.answer.replace(/"/g, '&quot;')}">
                             <option value="">-- Chọn đáp án --</option>
-                            ${s.options.map(o => `<option value="${o}">${o}</option>`).join('')}
+                            ${s.options.map(o => `<option value="${o.replace(/"/g, '&quot;')}">${o}</option>`).join('')}
                         </select>
-                        <span class="ms-3 feedback-text fw-bold"></span>
+                        
+                        <span class="ms-0 ms-md-3 mt-2 mt-md-0 feedback-text"></span>
                     </div>
                 </div>
             `).join('');
@@ -58,11 +90,45 @@
 
         function checkAll() {
             document.querySelectorAll('.user-ans').forEach(sel => {
-                const isCorrect = sel.value === sel.dataset.correct;
+                const userVal = sel.value;
+                const correctVal = sel.dataset.correct;
+                
+                // Bóc tách thẻ HTML (ví dụ <b>) trong JSON ra so sánh với text trơn của option
+                const temp1 = document.createElement("div"); temp1.innerHTML = userVal;
+                const temp2 = document.createElement("div"); temp2.innerHTML = correctVal;
+                
+                const isCorrect = (userVal !== "") && (temp1.textContent.trim() === temp2.textContent.trim());
+
                 sel.classList.remove('correct-sel', 'wrong-sel');
                 sel.classList.add(isCorrect ? 'correct-sel' : 'wrong-sel');
-                sel.nextElementSibling.innerText = isCorrect ? "✅" : "❌ " + sel.dataset.correct;
+                
+                sel.nextElementSibling.innerHTML = isCorrect ? "✅" : "❌ " + correctVal;
             });
+        }
+
+        function nextQuestion() {
+            if (currentIdx < allData.length - 1) {
+                currentIdx++;
+                loadQuestion();
+            }
+        }
+
+        function prevQuestion() {
+            if (currentIdx > 0) {
+                currentIdx--;
+                loadQuestion();
+            }
+        }
+
+        function randomQuestion() {
+            if (allData.length <= 1) return;
+            let nextIdx;
+            do {
+                nextIdx = Math.floor(Math.random() * allData.length);
+            } while (nextIdx === currentIdx); 
+            
+            currentIdx = nextIdx;
+            loadQuestion();
         }
     </script>
 </body>

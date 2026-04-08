@@ -160,7 +160,7 @@
             
             // Cập nhật số câu sai
             if (incorrectQuestions.length > 0) {
-                errorSummary.innerText = `⚠️ Cần ôn lại: ${incorrectQuestions.length} câu`;
+                errorSummary.innerText = `⚠️ SAI: ${incorrectQuestions.length}`;
             } else {
                 errorSummary.innerText = "";
             }
@@ -168,7 +168,7 @@
             // Cập nhật số câu đúng (đếm các giá trị true trong mảng hasBeenCorrect)
             const correctCount = hasBeenCorrect.filter(Boolean).length;
             if (correctCount > 0) {
-                correctSummary.innerText = `✅ Đã đúng: ${correctCount}/${questions.length}`;
+                correctSummary.innerText = `✅ Đúng: ${correctCount}/${questions.length}`;
             } else {
                 correctSummary.innerText = "";
             }
